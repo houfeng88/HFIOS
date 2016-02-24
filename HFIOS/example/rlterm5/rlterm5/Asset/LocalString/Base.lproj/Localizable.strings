@@ -1,0 +1,737 @@
+/*
+ Localizable.strings
+ pos
+ 
+ Created by ： on 12-10-9.
+ Copyright (c) 2012年 houfeng. All rights reserved.
+ */
+"username"="Username";
+"password"="Password";
+
+//
+// 共通
+//
+"staffunlogintitle"="登録解除";
+"staffunloginmessage"="スタッフ登録を解除してもよろしいでしょうか？";
+"Login"="登録";
+"staffloginmessage"="スタッフ番号をご入力ください。";
+"copyright"="Copyright (c) 2009 RepeatLink Co.,Ltd.";
+"inputinitkey"="初期パスワード";
+"nostaff"="スタッフが設定されておりません。";
+"stafflogin"="スタッフ登録";
+"Ok"="確定";
+"Cancel"="取消";
+"Message"="情報";
+"inputstaffid"="スタッフ番号";
+"pleaseinitshop"="本端末を[%@]店舗に初期設定してもいいですか？";
+"success"="成功しました。";
+"successed"="成功しました。";
+"v"="version ";
+"succeed"="成功しました。";
+"Completed"="取引が成功しました。";
+"factoryName"="デモモード";
+"UnkownPrintingError"="レシート印刷にエラーが発生しました。";
+
+//
+// 初期化画面
+//
+"inputloginpasswordtitle"="初期パスワードをご入力ください。";
+"mustbenumber"="数字のみのパスワードをご入力ください。";
+"domoshopname"="デモモード";
+"defaultSCName"="株式会社リピートリンク";
+
+//
+// 売上画面
+//
+"buymode"="売上";
+"trainmode"="トレーニングモード";
+"cancelmode"="返品モード";
+"prodcutNumStr"="数量";
+"tax"="消費税";
+"checkout"="会計";
+"totalpay"="合計";
+"advanceplay"="お預かり";
+"retrievepay"="お釣り";
+"cash"="現金";
+"credit"="クレジット";
+"receivableMoney"="売掛金";
+"eMoney"="電子マネー";
+"dvGiftCardPrice"="DV商品券";
+"DVGifitCard"="DV商品券";
+"dvGiftCardNum"="DV商品券数量";
+"otherGiftCardPrice"="他社商品券";
+"otherGift"="他社商品券";
+"otherGiftCardNum"="他社商品券数量";
+"chargepay"="チャージ";
+"charge"="チャージ";
+"pointpay"="ポイント使用";
+"point"="ポイント";
+"cusid"="カード番号";
+"cuslasttime"="前回訪問日付";
+"custotalpay"="半年購買金額";
+"memberstate"="会員状態";
+"visitTimesPerYear"="一年来店回数";
+"cuscharge"="チャージ";
+"cuspoint"="保有ポイント";
+"pinNum"="PIN番号";
+"buyticket"="施術商品券販売";
+"buyticketmessage"="施術商品券番号をご入力ください。";
+"useticket"="施術商品券使用";
+"useticketmessage"="ご利用の施術商品券番号をご入力ください。";
+"inputcustomertitle"="ポイントカード";
+"inputcustomermessage"="ポイントカードのカード番号をご入力ください。";
+"inputcustomermessagehaveswipecard"="ポイントカードのカード番号をご入力ください。またはカードを磁気カードリーダにスキャンしてください。";
+"saleaccountant"="売上会計";
+"receivableaccountant"="売掛金会計";
+"chargeaccountant"="チャージ会計";
+"logincustomerfisrt"="会員カード無しのお客様は該当機能をご利用できません。先にポイントカード番号をご入力ください。";
+"salesrecordisinvalid"="販売商品が入力されていないため、会計に進めません。";
+"inputid"="16桁カード番号";
+"defaultcustomername"="カード無しお客様";
+"SMS_DO_NOTHING"="レジ開けを行っていないため、売上操作はできません。";
+"SMS_REG_CLOSED"="レジ閉めを既に行っているため、売上操作はできません。";
+"inputticketid"="施術商品券番号";
+"ticketusedonlyonce"="選択された回数券は今回の取引において、すでに使用されております(1回の取引では同じ回数券は1度しかご利用になれません)。";
+"customeridinputerror"="１６桁のカード番号を入力してください。";
+"Connecting"="通信中";
+"totaldiscount"="一括割引";
+"salesrecordisnull"="販売商品が入力されていないため、一括割引が適用できません。";
+"salesrecordshishuisnull"="施術商品が存在していませんので、施術一括割引を適用できません。";
+"salesrecordwufanisnull"="物販商品が存在していませんので、物販一括割引を適用できません。";
+
+"havegettthisticket"="入力された商品券は既に販売リストに含まれています。";
+"havethisticketnow"="入力された商品券は既に施術商品に適用されています。";
+"ticketnumisnot12len"="１２桁の施術商品券番号を入力してください。";
+"ticketisnotnum"="１２桁の施術商品券番号を入力してください。";
+"ticketuse"="施術券商品券使用";
+"TicketQuerying"="施術券状態を取得しています。";
+"UseTicketCompleted"="施術券を適用しました。";
+"TicketIsNotInCustomer"="施術券が使用可能な状態ではありません。";
+"TicketIsInvalid"="施術券が廃番されたため、販売と利用できません。";
+"TicketIsAlreadyUsed"="入力された施術券は既に使用済みです。";
+"TicketIsNotSold"="入力された施術券はまだ発券されていません。";
+"TicketIsExpired"="入力された施術券の使用期限が過ぎています。";
+"TicketIsNotForUsed"="入力された施術券は利用できません。";
+"TicketIsNotInShop"="入力された施術券はショップ在庫にありません。";
+"TicketIsNotUsed"="入力された施術券は使用済みではありません。";
+"Inputpayisbiggerthantotal"="入力された支払金額が合計金額を超えています、支払情報をもう一度ご入力ください。";
+"Printing..."="印刷中です。";
+"needpay"="支払残金額";
+"customernothavecharge"="該当のお客様はチャージを保有していません。";
+"customernothavepoint"="該当のお客様はポイントを保有していません。";
+"willdeleleproducts"="入力された商品或は取引情報を削除してもよろしいですか？";
+"Delete"="削除";
+"root"="トップメニュー";
+"customeridoerror"="１６桁のカード番号を入力してください。";
+"setDefultCustomermessage"="会計時の顧客情報をクリアしますか?";
+"setDefultCustomerBtn1"="戻る";
+"setDefultCustomerBtn2"="クリア";
+"getcustomerok"="顧客情報を取得しました。";
+"startgetcustmoer"="顧客情報を取得しています。";
+"TicketNumType"="施術券番号選択";
+"inputpointmessage"="ポイント付与を行いますか？";
+"free"="フリー";
+"cancelmodenousebookticket"="お客様の回数券使用記録を返品できません。";
+"checkprintering"="プリンタ状態を確認しています。";
+"chargecannotprintreceipt"="チャージ入金には領収書の印刷ができません。";
+"emptycardtradetitle"="確認";
+"emptycardtrademessage"="会員カードがスキャンされておりませんが、引き続き取引を行いますでしょうか？";
+"clearbuiedproducts"="商品リストリセット";
+"clearproductstaffcustomer"="取引入力リセット";
+"notValidPointCardmessage"="有効な会員カードではありません。該当会員カードの状態が[%@]となっております。";
+
+//for MH
+"mhsalesitemnum"="品目数";
+"mh_makernewcardmessage"="「%@」との新規会員番号を発行してもよろしいですか？";
+"mh_telphoneinputerror"="入力された電話番号のフォーマットが間違いました。";
+"pcMail"="PCﾒｰﾙｱﾄﾞﾚｽ";
+"phoneMail"="携帯ﾒｰﾙｱﾄﾞﾚｽ";
+"mh_makenewcardbottommessage"="仮の会員番号を発行します。実際の取引が発生しない限り、有効な会員番号になりません。";
+
+
+"mh_ifserachmyshop"="自店顧客のみ検索";
+"mh_notingsearched"="該当顧客が見つかりません。";
+
+"mh_searchmessage1havenewcard"="リピーターである場合は、検索条件を入力してから「検索」ボタンを押し、該当顧客を選択してください。新規顧客である場合は、「新規」ボタンを押してください。";
+
+"mh_searchmessage2havenewcard"="注意：新規では仮の会員番号を発行します。実際の取引が発生しない限り、有効な会員番号になりません。";
+
+
+"mh_searchmessage1nonewcard"="検索条件を入力してから顧客検索を行ってください。";
+
+"mh_searchmessage2nonewcard"="注意：新規では仮の会員番号を発行します。実際の取引が発生しない限り、有効な会員番号になりません。";
+
+"mh_haveacardid_cantnewcard"="該当お客様は既に会員番号を持っていますので、再度新規会員番号を発行できません";
+"appointStaff"="主担当者";
+"mh_appointstaffselect"="主担当選択";
+"mh_staffselect"="担当者選択";
+
+"mh_addApointStaff"="主担当登録";//title
+"mh_addApointStaff_message"="主担当のスタッフ番号をご入力ください。";//message
+
+//"mh_resnewcustomer_cantreplacewithothercustomer"="预约顾客不能用其他顾客替换";
+//
+// 売上管理画面
+//
+"buymanage"="売上管理";
+"openstoretitle"="レジ開け";
+"openstoremessage"="レジ開け入金金額をご入力ください。";
+"cash1Num"="1円";
+"cash2Num"="2円";
+"cash5Num"="5円";
+"cash10Num"="10円";
+"cash50Num"="50円";
+"cash100Num"="100円";
+"cash500Num"="500円";
+"cash1000Num"="1000円";
+"cash2000Num"="2000円";
+"cash5000Num"="5000円";
+"cash10000Num"="10000円";
+"cash/inputvalue"="現金＋レジ準備金/レジ締め入力値";
+"credit/inputvalue"="クレジット/レジ締め入力値";
+"receivableMoney/inputvalue"="売掛金/レジ締め入力値";
+"eMoney/inputvalue"="電子マネー/レジ締め入力値";
+"dvGiftCardPrice/inputvalue"="DVポイント商品券/レジ締め入力値";
+"otherGiftCardPrice/inputvalue"="他社商品券/レジ締め入力値";
+"ticket/inputvalue"="施術商品券/レジ締め入力値";
+"endchecktitle"="レジ末締め";
+"endcheckmessagesucces"="レジ締めの金額が一致しました。\n「確定」を押したらレジ最終締めを行います。";
+"endcheckmessagefail"="レジ締めの金額は不一致です。引き続きレジ最終締めを行いますか？";
+"endcheckmessageok"="レジ締めの金額が一致しました。引き続きレジ最終締めを行いますか？";
+"makesureopenstoremessage"="レジ開けを行いますか？";
+"makesureenterstoremessage"="レジ金入金を行いますか？";
+"RegOpenIsDone"="レジ開けは既に行われました。";
+"RegOpenCannotBeDone"="レジ閉めは既に行いました。";
+"RegCloseOpenFirst"="先にレジ開けを行ってください。";
+"RegCloseIsDone"="レジ閉めは既に行いました。";
+"CashDepositIsDone"="売上金入金を既に行いました。";
+"CashDepositRegCloseFirst"="先にレジ締めを行ってください。";
+"open"="レジ開け";
+"midcheck"="レジ中締め";
+"endcheck"="レジ末締め";
+"enterstore"="レジ金入金";
+"notover"="未完了";
+"over"="完了";
+"inputmoney"="入力金額";
+"blank"="枚";
+"totalmoney"="トータル金額";
+"entermenoy"="入力金額";
+"notenough"="過不足";
+"times"="回";
+"isok"="一致";
+"PUT_AS_TIME"="施術時間延長";
+"PUT_AS_DISCOUNT"="支払金額割引";
+"PUT_AS_TICKET"="割引券交換";
+"inputopenstoremoney"="レジ金入金額";
+"isPaymentValid"="支払残金額がゼロになっていません、支払情報をもう一度ご入力ください。";
+"inputenterstoremoney"="レジ金入金";
+"salesrecordisvalid"="販売商品が入力されていないため、会計に進めません。";
+"ticketsale"="販売";
+"ticketused"="使用";
+"inputwrongful"="有効な数字を入力してください。";
+"CanNotBeBlankCard"="カード番号が無効です。";
+"ticket"="施術商品券";
+"inputmoneyisbigerthantotalmeny"="売上金入金額がレジ内金額を超えております、再度ご入力ください。";
+"printing"="印刷中です。";
+"PrintingOK"="印刷が成功しました。";
+"printendcheckfail"="レジ締めレシート印刷に失敗しました。";
+"maishangjinge"="売上金額";
+//
+//　顧客管理
+//
+"customermanage"="顧客管理";
+"cusname"="顧客名";
+"customername"="顧客姓名";
+"customerid"="カード番号";
+"customerlastdate"="前回来店日";
+"customerHalfyearTime"="半年購入合計";
+"customerChagre"="所有チャージ";
+"customercuspoint"="所有ポイント";
+"validDate"="有効期限";
+"havenotthiscustomer"="カード番号が無効です。";
+"pleaseinput16lenid"="１６桁のカード番号を入力してください。";
+"sum"="金額";
+"haveBookTicketName"="回数券名";
+"useBookTicketTimes"="利用回数";
+"cus_dis_chargeusetime"="来店日時";
+"cus_dis_chargesum"="チャージ金額";
+"cus_dis_chargeusesum"="チャージ利用金額";
+"cus_dis_chargeleftsum"="チャージ残高";
+"cus_dis_chargeuseway"="利用タイプ";
+
+"cus_dis_gotpoint"="ポイント取得";
+"cus_dis_usepoint"="ポイント使用";
+"cus_dis_totalpoint"="ポイント残高";
+"cus_dis_pointtype"="タイプ";
+"cus_invalid"="無効なポイントカードです（会員状態：%@）。";
+"cus_status0"="有効カード会員";
+"cus_status1"="メール会員";
+"cus_status2"="カード変更済";
+"cus_status3"="退会";
+"cus_status4"="期間切れ";
+"cus_status"="顧客状態";
+"pay_savepay_message"="仮会計登録の場合、新規に発行した顧客番号は一旦取消されます。会計時に再度顧客番号を発行してください";
+"INVALID_MAILADDRESS" = "無効なメールアドレス";
+
+//
+//　ツール
+//
+"toolmenu"="管理ツール";
+"System Setting"="システム設定";
+"Input Limit"="入力制限";
+"input_limit.charge"="チャージ";
+"input_limit.point"="ポイント";
+"input_limit.cash"="現金";
+"input_limit.credit"="クレジット";
+"input_limit.dv_ticket"="DV商品券";
+"input_limit.other_ticket"="他社商品券";
+"input_limit.emoney"="電子マネー";
+"input_limit.receivable_money"="売掛金";
+"Round Setting"="端数処理設定";
+"round_setting.discount"="割引";
+"round_setting.tax"="消費税";
+"halfAjust"="四捨五入";
+"roundDown"="切捨";
+"roundUp"="切上";
+"Apply"="適用";
+"InputPasswordtitle"="管理パスワードご入力ください";
+"printer.ipaddress"="プリンタ設定";
+"printer.point_printing"="ポイント情報印刷";
+"printer.paper_width"="プリンタ用紙サイズ";
+"printer.cut"="感熱紙カット";
+"printer.check_status"="プリンタ状態チェック";
+"full"="フル";
+"part"="パーシャル";
+"printer.sale_mng_autoprinting"="締めレシート自動印刷";
+"printer.sales_autoprinting"="売上レシート自動印刷";
+"rl_comm.server"="RLサーバ";
+"rl_comm.query_update"="端末状態同期";
+"Terminal Setting"="端末設定";
+"Function test"="機能テスト";
+"updateConfigOk"="端末情報が更新しました。";
+"updateConfigfail"="端末情報が失敗しました。";
+"closerltermmessage"="リピートリンク販促端末を終了しますか？";
+"product_select"="商品並び方";
+"list"="リスト";
+"dir"="ディレクトリ";
+"UpdateApp"="iPOS更新";
+"WeWillUpdateIPOS"="アプリケーションのアップデートを行います。";
+"Update"="更新";
+"Passwordorrer"="無効なパスワードです。";
+"needrestarttoselect"="磁気リーだを有効するためにiPOSを再起動する必要があります。";
+"swipetype1"="中磁";
+"swipetype2"="華中星";
+"empty_card_alert"="会員カード無しアラート";
+"test"="テスト";
+"testprinter"="プリンタテスト印字";
+"TestPrintOK"="プリンタテスト印字が成功しました。";
+"testDrawerOpen"="ドロワキックテスト";
+"TestDrawerOpenOK"="ドロワキック送信が成功しました。";
+"Download ok"="ロゴ更新が成功しました。";
+"updateing"="更新中......";
+"rlty4_id"="端末ID";
+"access_key"="アクセスキー";
+"initkey"="初期化済み";
+"use_rlcomm"="通信利用";
+"use_printer"="プリンタ利用";
+"swipecard"="磁気カード";
+"Apply"="適用";
+"swipecardtype"="磁気カードタイプ";
+"use_reservation"="予約利用";
+"rl_comm.client_certificate"="SSL双方向認証";
+"rl_comm.app_name"="アプリ名";
+"Download Logo Image"="ロゴ更新";
+
+"auto_scan_card"="カードリーダ自動オープン";
+"auto_back_topmenu"="自動メインメニュー戻り";
+"printer.finalPrintStatisticsTwice"="精算レシート（控え）印刷";
+"printer.salestaff_printing"="販売担当者印刷";
+
+//
+// RLAction Error message
+//
+
+"INVALID_CLIENT_ID"         = "端末IDがマスターに存在していません。";
+"INVALID_ACCESS_KEY"        = "端末認証に失敗しました。";
+"IDENTITY_IS_NULL_OR_EMPTY" = "カード番号が設定されていません。";
+"INVALID_CUSTOMER_IDENTITY" = "カード番号が無効です。";
+"INVALID_SHOP_ID"           = "店舗番号が無効です。";
+"GET_STAFFS_ERROR"          = "該当スタッフは存在しません。";
+"GET_CATEGORIES_ERROR"      = "店舗の販売商品が設定されていません。";
+"INVALID_SALES_INFO"        = "取引情報が無効です。";
+"INVALID_SC_ID"             = "本部番号が無効です。";
+"INVALID_CATEGORY_ID"       = "商品のカテゴリ番号が無効です。";
+"GET_POINTSETTING_ERROR"    = "ポイント引き換えが本部にて設定されておりません。";
+"CHECKINGIN_ALREADY"        = "レジ開けは既に行われました。";
+"CHECKINGIN_NEVER"          = "レジ開けをまだ行なっていません。";
+"CHECKINGOUT_ALREADY"       = "レジ締めは既に行われました。";
+"STAFF_LOGIN_ALREADY"       = "該当スタッフは自店舗もしくは他店舗にて既にレジ登録を行っております。";
+"STAFF_LOGOUT_ALREADY"      = "該当スタッフは既にレジ登録を解除しています。";
+"PAYMENT_IS_NULL_OR_EMPTY"  = "該当取引のお支払情報が無効です。";
+"INVALID_PAYMENT_INFO"      = "取引のお支払情報が無効です。";
+"INVALID_INCENTIVE_INFO"    = "入力されたインセンティブ情報は無効です。";
+"INVALID_GIFTCARD_INFO"     = "入力された商品券情報は無効です。";
+"ERROR_POINTSETTING_VALUE"  = "入力されたポイント数はポイント引き換え設定に存在しません。";
+"ERROR_CHARGEMONEY_VALUE"   = "チャージ額が支払金額と一致していません。";
+"ERROR_CHECKINGOUT_VALUE"   = "レジ締め金額が一致していません。";
+"ERROR_TOTALMONEY_VALUE"    = "商品総額が無効です。";
+"ERROR_PAYMENT_VALUE"       = "支払金額が無効です。";
+"CUSTOMER_NO_CHARGE"        = "該当のお客様はチャージを保有していません。";
+"ERROR_CHARGEUSE_VALUE"     = "使用するチャージ額が保有チャージ額を超えています。";
+"INVALID_TICKET_ID"         = "該当する施術商品券がマスターに存在しません。";
+"ERROR_TICKET_MONEY_VALUE"  = "使用する施術商品券の金額は無効です。";
+"TICKET_USED_ALREADY"       = "該当する施術商品券は使用済みです。";
+"ERROR_TICKET_STATUS"       = "該当する施術商品券は無効状態です。";
+"GET_BOOKTICKETS_ERROR"     = "回数券情報を取得できませんでした。";
+"INVALID_USEDBOOKTICKET_INFO"= "回数券使用情報が無効です。";
+"ERROR_TICKET_NO"           = "回数券番号が無効です。";
+"CUSTOMER_NO_BOOKTICKET"    = "該当するお客様は回数券を保有していません。";
+"INVALID_BOOKTICKET_ID"     = "該当する回数券は無効です。";
+"NO_CHECKINGOUT"            = "レジ締めをまだ行っていません。";
+"CASHDEPOSIT_ALREADY"       = "既に売上金入金を行っています。";
+"SHOP_NO_PRODUCT"           = "本店舗ではその商品を販売しておりません。";
+"INVALID_PRODUCT_ID"        = "入力された商品コードが無効です。";
+"ERROR_CHARGEREFOUND_VALUE" = "チャージ返金が保有チャージを超えています。返金できません。";
+"TICKET_TIMES_OVERFLOW"     = "回数券が使用済みになりました。";
+"NO_CASHDEPOSIT"            = "金庫入金がまだ行いませんでした。";
+"PCACCESS_KEY_SETALREADY"   = "アクセスキーが既に登録されました。";
+"PCACCESS_KEY_NOT_SET"      = "アクセスキーがまだ設定されておりません。";
+"INVALID_INITPASSWORD"      = "有効な初期パスワードではありません。";
+"TICKET_NOT_USED"           = "施術商品券が使用済み状態ではありません。";
+"ERROE_SALE_SHOP"           = "施術商品券の販売店舗が配布店舗と異なっています。";
+"HTTP_CONNECT_FAILED"       = "リピートリンクサーバへの接続ができていません。";
+"PR_PRINTER_INIT_FAILED"    = "プリンタへの接続ができておりません。";
+"PR_PRINTER_BUSY"           = "プリンタが印刷ジョブ処理しています。";
+"PR_PRINTING_ERROR"         = "印刷にエラーが発生しました。";
+"PR_PRINTING_NORESPONSE"    = "プリンタからの印字結果を取得できませんでした。";
+"CS_SLEEP"                  = "休眠";
+"CS_UNREGISTED"             = "登録解除";
+"CS_MEMBERCHANGE"           = "カード変更済み";
+"CS_REGISTERED"             = "メール会員";
+"CS_CARD"                   = "カード会員";
+"CS_INVALID"                = "無効会員";
+"CS_UNKOWN"                 = "未知状態";
+"BOOKTICKET_NOT_MATCH"      = "使用済みの回数券を返品することができません。";
+"ERROR_RECEVIABLEMONEY_VALUE"="売掛金の金額が正しくありません。";
+
+"INVALID_CANCELREASON"="取消理由を選択してください。";
+"ERROE_SALE_SHOP" = "販売店舗が間違っています。";
+"BOOKTICKET_NOT_MATCH" = "該当回数券が見つかりません。";
+"INVALID_CUSTOMER_STATUS" = "無効な顧客状態です。";
+"INVALID_BOOKTICKET" = "無効な回数券です。";
+"INVALID_RESERVATION_ID" = "無効な予約IDです。";
+"INVALID_RESERVATION_INFO" = "無効な予約情報です。";
+"TIME_RESERVED_ALREADY" = "該当時間帯は既に予約されました。";
+"ERROR_SHOP_ID" = "無効な店舗IDです。";
+"ERROR_STAFF_TIME" = "該当スタッフのシフトが確定されておりません。";
+"STAFF_TIME_BLOCKED" = "該当時間帯はブロックされています。";
+"NULL_PRODUCT_MINUTE" = "商品の施術時間が設定されておりません。";
+"ERROR_PRODUCT_MINUTE" = "商品の施術時間が間違っています。";
+"NULL_DEVICE_TOKEN" = "無効なデバイスIDです。";
+"RESERVATION_CONFIRM_ALREADY" = "予約は既に確定されました。";
+"RESERVATION_DELETE_ALREADY" = "予約は既に削除されました。";
+"INVALID_STAFFCODE" = "無効なスタッフIDです。";
+"INVALID_PARAMETER" = "通信中にエラーが発生しました。";
+"INVALID_RESTTIME_INFO" = "通信中にエラーが発生しました。";
+"HPACCESS_KEY_NOT_SET" = "無効なアクセスキーです。";
+"IPACCESS_KEY_NOT_SET" = "無効なアクセスキーです。";
+"INVALID_CANCELREASON" = "無効な取消理由です。";
+"INVALID_CUSTOMER_ID" = "無効な会員番号です。";
+"TICKET_PASS_VALIDDATE" = "商品券は既に期間切れました。";
+"INVALID_RV_CUSTOMERID" = "無効な予約顧客IDです。";
+"ERROR_ITEM_VALUE" = "顧客情報にエラーが発生しました。";
+"INVALID_PRODUCT_MASTER"="販売商品の価格はマスターの設定と違っていますので、端末情報の更新を行ってください。";
+"CUSTOMER_IDENTITY_NOT_EXIST"="スキャンされたカードはマスターに登録されていません。";
+
+
+//预约
+"res_showdetail_action"="修正";
+"res_customerid"="カード番号";
+"res_customername"="お客様名前";
+"res_customerphone"="お客様電話";
+"res_sex"="性別";
+"res_staff"="施術担当者";
+"res_time"="予約時間";
+"res_way"="来店理由";
+"unsure"="未確定";
+"sure"="確定";
+"webres"="web予約";
+"resnum"="予約客数";
+
+
+//input res
+"res_input_delproducttitle"="削除確認";
+"res_input_delproductmessage"="選択された施術商品を削除しますか?";
+"res_input_timeisnull"="予約開始時間が選択されておりません";
+"res_input_productisnull"="予約の施術商品が選択されておりません";
+"woman"="女";
+"man"="男";
+"unkown"="不明";
+
+"noname"="名前無し";
+"Pay"="会計";
+"MakeSure"="確認";
+"res_del_message"="該当予約記録を削除してもよろしいでしょうか？";
+"res_staff_havenotime"="担当者はシフト時間外です";
+"res_time_hasgone"="過去の時間に予約を追加することができません。";
+"modifySuccess"="予約変更が成功しました。";//预约修改
+"updateSuceess"="予約情報が更新しました。";//预约更新
+"res_input_phone_cannotbeempty"="顧客電話番号をご入力ください。";
+"res_input_staffnotselect"="商品を長押しして施術担当者を設定してください。";
+"res_inputstaffcode_title"="担当者番号選択";
+"res_inputstaffcodeMakesure_message"="WEB予約を確定するスタッフをご選択ください。";
+"res_inputstaffcodeDel_message"="删除这个预约";
+"res_hassavepayed_modify"="予約変更を行うと、仮会計登録の情報がなくなりますので、ご注意ください。";
+
+//show
+"time_hasgone_cannot_eidtres"="予約時間が過ぎましたので、予約情報の変更ができません。";
+"res_phoneres"="受付予約";
+"new"="新規";
+"repeat"="リピータ";
+
+//pull down refresh table
+"Release to refresh..."="リフレッシュを行ってください。";
+"Pull down to refresh..."="プルダウンで予約リストをリフレッシュします。";
+"Loading..."="処理中...";
+
+//un sure web res
+"resName"="顧客名";
+"resSex"="性別";
+"resProduct"="施術商品";
+"resTime"="時間";
+"resDetail"="詳細";
+
+"OrderByStarttime"="開始時間";
+
+"OrderByTimeLong"="出勤時間";
+
+"OrderByTimeLongShort"="空き時間";
+
+
+//block product
+"productlist"="商品リスト";
+"productdetail"="商品詳細";
+"setblockproducttime"="ブロック時間設定";
+"block_productname"="商品名";
+"blockproducttime"="ブロック時間";
+"alldayblock"="一日ブロック";
+"addblocktime"="ブロック時間追加";
+"startime"="開始時間";
+"endtime"="終了時間";
+"setstartime"="開始時間設定";
+"setendtime"="終了時間設定";
+
+//div product
+"min"="分";
+"lefttimeisnotenough"="残り時間が不足です。";
+"lefttimemustbezero"="残り時間はまだゼロになっていません。";
+"settime"="時間設定";
+"productname"="商品:";
+"staffname"="担当者:";
+"starttime"="開始時間";
+"alltime"="合計時間:";
+"cannotdelalloperations"="施術担当者は一人となっていますので、削除できません。";
+"changeTimeLen"="時間変更";
+//detail product
+"customerinfo"="顧客情報";
+"isNew"="新規";
+"kuaiji"="会計";
+"resContent"="施術内容";
+
+"divTime"="時間分割";
+"modify"="変更";
+"delete"="削除";
+"staff"="担当者";
+
+
+"unpayed"="未払";
+"payed"="払済";
+
+
+//makesure res
+"res_loginstafffisrt"="先に担当者をご登録ください。";
+
+//cancel res
+"res_cancel_message"="取消理由を選択してください。";
+"res_staffname"="担当者";
+"res_cancel_msg"="取消理由";
+"res_cancelres_sendmail"="お客様へ予約取消の通知メールを送信します.";
+"res_must_selectstaff"="入力担当者を選択してください。";
+//
+"res_isSetProdcutpselectsubitem"="該当商品がセット商品です。そのセット商品のコンポーネント商品を選択してください。";
+"res_block_timeseterror"="商品ブロック時間の設定に失敗しました。";
+
+
+//
+"res_remainTime"="残時間";
+"res_min"="分";
+
+"res_staffhavenothisshkill"="該当担当者は施術商品に対するスキルを持っていません。";
+
+//reg item
+"send"="許可";
+"nosend"="拒否";
+"notmarriage"="未婚";
+"marriage"="既婚";
+"notallRequiredItemsFilled"="入力必須な項目にはご入力ください。";
+
+"res_leastonesearchitem"="検索条件をご入力ください。";
+
+
+
+//pop set menu
+"res_preformance"="実績";
+"res_res"="予約";
+"res_nopay"="未払";
+"res_addtmpstaff"="臨時置き場";
+"tmpstaff"="臨時置き場";
+
+"tmpstaffhasproductinit"="臨時置き場には予約記録が存在していますので、表示をオフに設定できません。";
+
+
+"res_haseresinfoincannotblock"="予約記録が存在しているため、スタッフブロックができません。";
+
+//"res_namemustbehalfWidthChar"="名字必须为半角字符";
+"res_mustbenum"="数字をご入力ください。";
+"res_mustbeemail"="正しいメールアドレスをご入力ください。";
+"res_blocktimestarttimelaterendtime"="終了時間を開始時間より前に設定してください。";
+"res_block_haverepeattime"="設定されたブロック時間はかぶっています。";
+"manbuy_nocradpleasenewcard"="新規で顧客番号を発行してください。";
+"nocard"="無し";
+
+"connecting"="更新中......";
+
+//"res_hasnostaffs"="没有担当者";
+
+"res_intempStaffMode_canoper"="臨時置き場に予約記録が存在しているため、設定変更ができません。";
+
+
+"res_error_resttime"="選択された時間では休憩設定ができません";
+"res_error_setblocktime"="選択された時間ではブロック設定ができません";
+"res_cannothaveopertiontimebezero"="商品の施術時間は0分になっていますので、時間分割ができません。";
+
+
+"notthisshopcustomercantshowdetail"="他店顧客の詳細情報を閲覧できません。";
+//"res_reseditmodecontchangesearchnewmode"="预约编辑模式不能切换到新规和搜索模式";
+
+"res_mergewebcustomer_message"="WEB予約からの新規顧客情報をご選択されました顧客情報に情報統合を行いますか？\n情報統合後にお客様はすでに登録されたWEB予約用のIDとPASSでログインしても、ご選択されました顧客情報と同一人物だと認識できるようになります。";
+
+"RES_STATUS_RESED"="予約";
+"RES_STATUS_WAITING"="受付";
+"RES_STATUS_SHISHU"="施術中";
+"RES_STATUS_PAYED"="支払済";
+"RES_STATUS_SAVEPAYED"="仮会計";
+
+"res_input_notinstaffshifttime"="該当のタイムラインでは予約受付ができません。";
+
+"res_changestaff"="スタイリストを「%@」から「%@」に変更してもよろしいですか？";
+
+
+"otherAPIStaff" = "他社予約";
+
+
+
+
+//－－－－－－－－－－－－－－－－－－－－－－－－－－ 日文  RLCaseHistory-Karute －－－－－－－－－－－－－－－－－－－－－－－－－－－
+"rlchtxt_get_cfg_from_srv"="サーバーから設定情報を取得しています。しばらくお待ちください";
+"rlchtxt_search_usrinfo_from_srv"="サーバーからユーザー情報を検索しています。しばらくお待ちください";
+"rlchtxt_get_karute_brief_from_srv"="サーバーから来店履歴を取得しています。しばらくお待ちください";
+"rlchtxt_firstly_select_usr_please"="顧客検索画面から顧客を選択してください";
+//"rlchtxt_answer_with_ok"="ok";
+"rlchtxt_answer_with_ok"="確定";
+"rlchtxt_answer_with_yes"="はい";
+"rlchtxt_answer_with_confirmation"="確定";
+"rlchtxt_usr_card_number"="カード番号";
+"rlchtxt_usr_card_number_comment"="※番号を入力してください";
+"rlchtxt_usr_name"="名前";
+"rlchtxt_usr_name_comment"="※名前を入力してください";
+"rlchtxt_usr_phone"="電話番号";
+"rlchtxt_usr_phone_comment"="※電話番号を入力してください";
+"rlchtxt_usr_email"="電子メール";
+"rlchtxt_usr_email_comment"="※電子メールを入力してください";
+"rlchtxt_only_search_this_store"="当店来客だけを検索";
+"rlchtxt_title_search_usr"="顧客検索";
+"rlchtxt_title_browse_casehistory"="カルテ一覧";
+"rlchtxt_please_input_valid_date"="有効の日付を入力してください";
+"rlchtxt_karute_date"="日付";
+"rlchtxt_karute_date_comment"="※履歴の日付を入力してください";
+"rlchtxt_karute_name"="履歴名称";
+"rlchtxt_karute_name_comment"="※履歴名を入力してください";
+"rlchtxt_karute_summary"="履歴要約";
+"rlchtxt_karute_summary_comment"="※履歴要約を入力してください";
+"rlchtxt_hit"="情報";
+"rlchtxt_askfor_if_del_annotation"="この表記及び関連データを完全に削除しますか？";
+
+"从服务器获取配置信息失败！"="サーバーから設定情報の取得が失敗しました。";
+"向服务器上传来店履历失败！"="履歴カルテのアップロードが失敗しました。";
+"向服务器添加来店履历失败！"="履歴カルテの追加が失敗しました。";
+"删除服务器上的来店履历失败！"="履歴カルテの削除が失敗しました。";
+"请先选择需要添加图片的来店履历"="先に画像を追加する履歴カルテを選択してください。";
+"%ld 张照片"="%ld 枚写真";
+"%ld 张照片, %ld 部视频"="%ld 枚写真、%ld 部ビデオ";
+"已选择 %ld 个项目"="%ld 個項目を選択しています。";
+"已选择 %ld 张照片"="%ld 枚写真を選択しています。";
+"已选择 %ld 部视频"="%ld 部ビデオを選択しています。";
+"相簿"="アルバム";
+"此应用无法使用您的照片。"="iPOSは写真へのアクセスができません。";
+"你可以在「隐私设置」中启用存取。"="iPad＞設定＞プライバシー＞写真にて、iPOSから写真へのアクセスを許可してください。";
+"没有找到照片。"="写真が見つかりません。";
+"您可以使用 iTunes 将照片\n同步到此设备。"="iTunesを利用して写真を\nアップロードしてください。";
+"从服务器下载图像文件失败！"="サーバーから画像ファイルをダウンロードできません。";
+"本地缓存中的图像文件格式错误！"="ローカルで保存されている画像ファイルのフォーマットが間違っています。";
+"向服务器上传图像文件失败！"="サーバーへの画像ファイルのアップロードが失敗しました。";
+"要上传的图像文件不存在！"="アップロードする画像ファイルが存在していません。";
+"正在将选出的图片添加到来店履历中，请稍候..."="選択された写真を履歴カルテに追加しています。少々おまちください。";
+"操作失败"="操作が失敗しました。";
+"无法将照片存储于相簿中！"="写真をアルバムに保存できません。";
+"图像编辑"="画像編集";
+"图像选择(%d/5)"="画像選択 (%d/5)";
+"图像对比"="画像比較";
+
+//－－－－－－－－－－－－－－－－－－－－－ Demo －－－－－－－－－－－－－－－－－－－－－
+"rlchtxt_title_clean_all_demo_datafile"="デモデータファイルをクリアします";
+"rlchtxt_askfor_if_del_all_demo_datafile"="全てのデモデータをクリアするかとうか確定してください。";
+"rlchtxt_answer_with_cancel"="キャンセル";
+"rlchtxt_answer_with_want2del"="削除";
+
+// －－－ Metas －－－
+"rlchmeta_title_position"="部位を選ぶ";
+"rlchmeta_title_body_items"="体の部位";
+"rlchmeta_title_content"="内容記入";
+
+"rlchmeta_body_head"="頭部";
+"rlchmeta_body_head-tdx"="前頂";
+"rlchmeta_body_head-tyx"="こめかみ";
+"rlchmeta_body_head-bhx"="ひゃくえ";
+"rlchmeta_body_head-qmx"="せいめい";
+
+"rlchmeta_body_shoulder"="肩部";
+"rlchmeta_body_shd-jb"="頚部";
+"rlchmeta_body_shd-hb"="背中";
+"rlchmeta_body_shd-gtj"="上腕二頭筋";
+
+"rlchmeta_body_waist"="腰部";
+"rlchmeta_body_wst-sjj"="三角筋";
+"rlchmeta_body_wst-swstj"="上腕三头筋";
+"rlchmeta_body_wst-jxj"="棘下筋";
+"rlchmeta_body_wst-yzh"="腰椎";
+
+"rlchmeta_body_foot"="足部";
+"rlchmeta_body_foot-zsl"="足三里";
+"rlchmeta_body_foot-jh"="足首";
+"rlchmeta_body_foot-jb"="足の甲 ";
+"rlchmeta_body_foot-zd"="足裏";
+
+// －－－ Users －－－
+"rlchusr_name1"="大野智子";
+"rlchusr_store1"="RL川崎店";
+"rlchusr_name2"="小野みどり";
+"rlchusr_store2"="RL川崎店";
+"rlchusr_name3"="松本嵐";
+"rlchusr_store3"="RL横浜店";
+"rlchusr_name4"="渡辺百合子";
+"rlchusr_store4"="RL川崎店";
+//－－－－－－－－－－－－－－－－－－－－－－－－－－ 日文  RLCaseHistory-Karute －－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+

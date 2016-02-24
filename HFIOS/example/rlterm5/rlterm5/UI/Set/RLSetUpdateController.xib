@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RLSetUpdateController" customModule="rlterm3" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="RLSetView" customModule="rlterm3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="702" height="541"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsw-n6-zvE">
+                    <rect key="frame" x="33" y="38" width="166" height="104"/>
+                    <state key="normal" image="infoupdate.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="infoupdatel.png"/>
+                    <connections>
+                        <action selector="updateTerm:" destination="-1" eventType="touchUpInside" id="3EJ-NZ-TGw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyc-9d-RbT">
+                    <rect key="frame" x="232" y="39" width="120" height="102"/>
+                    <state key="normal" image="logoupdate.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="logoupdatel.png"/>
+                    <connections>
+                        <action selector="updateLogo:" destination="-1" eventType="touchUpInside" id="wFs-dP-dT7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7W-ls-bRZ">
+                    <rect key="frame" x="423" y="37" width="130" height="104"/>
+                    <state key="normal" image="softwareupdate.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="softwareupdatel.png"/>
+                    <connections>
+                        <action selector="updateSoft:" destination="-1" eventType="touchUpInside" id="m6K-qV-1Tz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="521" y="353.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="infoupdate.png" width="111" height="104"/>
+        <image name="infoupdatel.png" width="111" height="104"/>
+        <image name="logoupdate.png" width="111" height="104"/>
+        <image name="logoupdatel.png" width="111" height="104"/>
+        <image name="softwareupdate.png" width="130" height="104"/>
+        <image name="softwareupdatel.png" width="130" height="104"/>
+    </resources>
+</document>

@@ -1,0 +1,91 @@
+{
+    "comment": "配置设定界面;groupname为tableview分组的title;itemname为tableviewcell的title;itemkey为要设置的xml字段;itemtype为设置的类型,取值可以为textfield,switch,segment;itemfrom表示改字段是从哪个xml文件得到，取值可以为config,termconfig (不填默认为config);itemregtype 表示改字段类型,取值可以为ip(ip地址) ,int ,float 默认为字符串不需要填写",
+    "groups": [
+               {
+               "groupname": "基本設定",
+               "items": [
+                         {
+                         "itemname": "商品並び方",
+                         "itemkey": "app.sales.product_select",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "リスト",
+                                          "value": "list"
+                                          },
+                                          {
+                                          "name": "ディレクトリ",
+                                          "value": "dir"
+                                          }
+                                          ],
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "会員カード無しアラート",
+                         "itemkey": "app.sales.empty_card_alert",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "カードリーダ自動オープン",
+                         "itemkey": "swipecard.auto_scan_card",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "自動メインメニュー戻り",
+                         "itemkey": "swipecard.auto_back_topmenu",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "レシート印刷設定",
+               "items": [
+                         {
+                         "itemname": "ポイント情報印刷",
+                         "itemkey": "printer.point_printing",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "精算レシート（控え）印刷",
+                         "itemkey": "printer.finalPrintStatisticsTwice",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "販売担当者印刷",
+                         "itemkey": "printer.salestaff_printing",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "売上レシート自動印刷",
+                         "itemkey": "printer.sales_autoprinting",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "締めレシート自動印刷",
+                         "itemkey": "printer.sale_mng_autoprinting",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "WEB予約用QRコード印刷", 
+                         "itemkey": "printer.print_QR", 
+                         "itemtype": "switch", 
+                         "itemfrom": "config"
+                         }, 
+                         {
+                         "itemname": "回数券の有効期限印字", 
+                         "itemkey": "printer.print_timesticket_time", 
+                         "itemtype": "switch", 
+                         "itemfrom": "config"
+                         }
+                         ]
+               }
+               ]
+}

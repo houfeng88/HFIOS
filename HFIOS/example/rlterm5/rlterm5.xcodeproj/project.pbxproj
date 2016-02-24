@@ -1,0 +1,2874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF53E7271AC3A53A00622EEB /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7241AC3A53A00622EEB /* Default-Landscape@2x.png */; };
+		CF53E7281AC3A53A00622EEB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7251AC3A53A00622EEB /* Icon.png */; };
+		CF53E7291AC3A53A00622EEB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7261AC3A53A00622EEB /* Icon@2x.png */; };
+		CF53E7651AC3A54200622EEB /* login_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E72C1AC3A54200622EEB /* login_bg@2x.png */; };
+		CF53E7661AC3A54200622EEB /* login_inputbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E72D1AC3A54200622EEB /* login_inputbox@2x.png */; };
+		CF53E7671AC3A54200622EEB /* login_offline_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E72E1AC3A54200622EEB /* login_offline_btn@2x.png */; };
+		CF53E7681AC3A54200622EEB /* login_online_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E72F1AC3A54200622EEB /* login_online_btn@2x.png */; };
+		CF53E7691AC3A54200622EEB /* btnGotoCH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7311AC3A54200622EEB /* btnGotoCH@2x.png */; };
+		CF53E76A1AC3A54200622EEB /* btnGotoCHl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7321AC3A54200622EEB /* btnGotoCHl@2x.png */; };
+		CF53E76B1AC3A54200622EEB /* firstmenu_bg0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7331AC3A54200622EEB /* firstmenu_bg0@2x.png */; };
+		CF53E76C1AC3A54200622EEB /* firstmenu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7341AC3A54200622EEB /* firstmenu_bg@2x.png */; };
+		CF53E76D1AC3A54200622EEB /* firstmenu_gukeguanli_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7351AC3A54200622EEB /* firstmenu_gukeguanli_btn@2x.png */; };
+		CF53E76E1AC3A54200622EEB /* firstmenu_gukeguanli_btnl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7361AC3A54200622EEB /* firstmenu_gukeguanli_btnl@2x.png */; };
+		CF53E76F1AC3A54200622EEB /* firstmenu_maishang_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7371AC3A54200622EEB /* firstmenu_maishang_btn@2x.png */; };
+		CF53E7701AC3A54200622EEB /* firstmenu_maishang_btnl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7381AC3A54200622EEB /* firstmenu_maishang_btnl@2x.png */; };
+		CF53E7711AC3A54200622EEB /* firstmenu_maishangguanli_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7391AC3A54200622EEB /* firstmenu_maishangguanli_btn@2x.png */; };
+		CF53E7721AC3A54200622EEB /* firstmenu_maishangguanli_btnl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E73A1AC3A54200622EEB /* firstmenu_maishangguanli_btnl@2x.png */; };
+		CF53E7731AC3A54200622EEB /* firstmenu_survey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E73B1AC3A54200622EEB /* firstmenu_survey@2x.png */; };
+		CF53E7741AC3A54200622EEB /* firstmenu_surveyl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E73C1AC3A54200622EEB /* firstmenu_surveyl@2x.png */; };
+		CF53E7751AC3A54200622EEB /* firstmenu_tool_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E73D1AC3A54200622EEB /* firstmenu_tool_btn@2x.png */; };
+		CF53E7761AC3A54200622EEB /* firstmenu_tool_btnl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E73E1AC3A54200622EEB /* firstmenu_tool_btnl@2x.png */; };
+		CF53E7771AC3A54200622EEB /* kara_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E73F1AC3A54200622EEB /* kara_logo@2x.png */; };
+		CF53E7781AC3A54200622EEB /* mh_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7401AC3A54200622EEB /* mh_logo@2x.png */; };
+		CF53E7791AC3A54200622EEB /* rese_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7411AC3A54200622EEB /* rese_btn@2x.png */; };
+		CF53E77A1AC3A54200622EEB /* rese_btnl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7421AC3A54200622EEB /* rese_btnl@2x.png */; };
+		CF53E77B1AC3A54200622EEB /* rl_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7431AC3A54200622EEB /* rl_logo@2x.png */; };
+		CF53E77C1AC3A54200622EEB /* infoupdate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7451AC3A54200622EEB /* infoupdate@2x.png */; };
+		CF53E77D1AC3A54200622EEB /* infoupdatel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7461AC3A54200622EEB /* infoupdatel@2x.png */; };
+		CF53E77E1AC3A54200622EEB /* logoupdate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7471AC3A54200622EEB /* logoupdate@2x.png */; };
+		CF53E77F1AC3A54200622EEB /* logoupdatel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7481AC3A54200622EEB /* logoupdatel@2x.png */; };
+		CF53E7801AC3A54200622EEB /* softwareupdate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7491AC3A54200622EEB /* softwareupdate@2x.png */; };
+		CF53E7811AC3A54200622EEB /* softwareupdatel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E74A1AC3A54200622EEB /* softwareupdatel@2x.png */; };
+		CF53E7821AC3A54200622EEB /* tool_Check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E74B1AC3A54200622EEB /* tool_Check@2x.png */; };
+		CF53E7831AC3A54200622EEB /* tool_Check_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E74C1AC3A54200622EEB /* tool_Check_H@2x.png */; };
+		CF53E7841AC3A54200622EEB /* tool_Exit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E74D1AC3A54200622EEB /* tool_Exit@2x.png */; };
+		CF53E7851AC3A54200622EEB /* tool_Exit_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E74E1AC3A54200622EEB /* tool_Exit_H@2x.png */; };
+		CF53E7861AC3A54200622EEB /* tool_inputbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E74F1AC3A54200622EEB /* tool_inputbg@2x.png */; };
+		CF53E7871AC3A54200622EEB /* tool_MakerSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7501AC3A54200622EEB /* tool_MakerSet@2x.png */; };
+		CF53E7881AC3A54200622EEB /* tool_MakerSet_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7511AC3A54200622EEB /* tool_MakerSet_H@2x.png */; };
+		CF53E7891AC3A54200622EEB /* tool_toolbarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7521AC3A54200622EEB /* tool_toolbarbg@2x.png */; };
+		CF53E78A1AC3A54200622EEB /* tool_UpdateInfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7531AC3A54200622EEB /* tool_UpdateInfo@2x.png */; };
+		CF53E78B1AC3A54200622EEB /* tool_UpdateInfo_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7541AC3A54200622EEB /* tool_UpdateInfo_H@2x.png */; };
+		CF53E78C1AC3A54200622EEB /* tool_UserSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7551AC3A54200622EEB /* tool_UserSet@2x.png */; };
+		CF53E78D1AC3A54200622EEB /* tool_UserSet_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7561AC3A54200622EEB /* tool_UserSet_H@2x.png */; };
+		CF53E78E1AC3A54200622EEB /* addstaffloginbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7581AC3A54200622EEB /* addstaffloginbtn@2x.png */; };
+		CF53E78F1AC3A54200622EEB /* addstaffloginbtnl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7591AC3A54200622EEB /* addstaffloginbtnl@2x.png */; };
+		CF53E7901AC3A54200622EEB /* backbtnbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E75A1AC3A54200622EEB /* backbtnbg@2x.png */; };
+		CF53E7911AC3A54200622EEB /* backbtnbgl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E75B1AC3A54200622EEB /* backbtnbgl@2x.png */; };
+		CF53E7921AC3A54200622EEB /* Chargedevice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E75C1AC3A54200622EEB /* Chargedevice@2x.png */; };
+		CF53E7931AC3A54200622EEB /* Chargedevicel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E75D1AC3A54200622EEB /* Chargedevicel@2x.png */; };
+		CF53E7941AC3A54200622EEB /* helpbtnbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E75E1AC3A54200622EEB /* helpbtnbg@2x.png */; };
+		CF53E7951AC3A54200622EEB /* helpbtnbgl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E75F1AC3A54200622EEB /* helpbtnbgl@2x.png */; };
+		CF53E7961AC3A54200622EEB /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7601AC3A54200622EEB /* home@2x.png */; };
+		CF53E7971AC3A54200622EEB /* homel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7611AC3A54200622EEB /* homel@2x.png */; };
+		CF53E7981AC3A54200622EEB /* printer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7621AC3A54200622EEB /* printer@2x.png */; };
+		CF53E7991AC3A54200622EEB /* printerl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7631AC3A54200622EEB /* printerl@2x.png */; };
+		CF53E79A1AC3A54200622EEB /* statusbarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7641AC3A54200622EEB /* statusbarbg@2x.png */; };
+		CF53E7B71AC3A5B900622EEB /* RLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E79E1AC3A5B900622EEB /* RLLoginViewController.swift */; };
+		CF53E7B81AC3A5B900622EEB /* RLControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A01AC3A5B900622EEB /* RLControllerManager.swift */; };
+		CF53E7B91AC3A5B900622EEB /* RLMainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A11AC3A5B900622EEB /* RLMainMenuController.swift */; };
+		CF53E7BA1AC3A5B900622EEB /* RLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A21AC3A5B900622EEB /* RLNavigationController.swift */; };
+		CF53E7BB1AC3A5B900622EEB /* RLStatusToolBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A41AC3A5B900622EEB /* RLStatusToolBarController.swift */; };
+		CF53E7BC1AC3A5B900622EEB /* RLStatusToolBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7A51AC3A5B900622EEB /* RLStatusToolBarController.xib */; };
+		CF53E7BD1AC3A5B900622EEB /* RLReservationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A71AC3A5B900622EEB /* RLReservationController.swift */; };
+		CF53E7BE1AC3A5B900622EEB /* RLTimeLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A81AC3A5B900622EEB /* RLTimeLineController.swift */; };
+		CF53E7BF1AC3A5B900622EEB /* RLTimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7A91AC3A5B900622EEB /* RLTimeTable.swift */; };
+		CF53E7C01AC3A5B900622EEB /* RLProductMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7AB1AC3A5B900622EEB /* RLProductMenuView.swift */; };
+		CF53E7C11AC3A5B900622EEB /* RLSellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7AC1AC3A5B900622EEB /* RLSellController.swift */; };
+		CF53E7C21AC3A5B900622EEB /* RLConfigCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7AE1AC3A5B900622EEB /* RLConfigCellView.swift */; };
+		CF53E7C31AC3A5B900622EEB /* RLMakerSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7AF1AC3A5B900622EEB /* RLMakerSetView.swift */; };
+		CF53E7C41AC3A5B900622EEB /* RLSetConfigItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7B01AC3A5B900622EEB /* RLSetConfigItems.swift */; };
+		CF53E7C51AC3A5B900622EEB /* RLSetToolMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7B11AC3A5B900622EEB /* RLSetToolMenuView.swift */; };
+		CF53E7C61AC3A5B900622EEB /* RLSetUpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7B21AC3A5B900622EEB /* RLSetUpdateController.swift */; };
+		CF53E7C71AC3A5B900622EEB /* RLSetUpdateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53E7B31AC3A5B900622EEB /* RLSetUpdateController.xib */; };
+		CF53E7C81AC3A5B900622EEB /* RLSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7B41AC3A5B900622EEB /* RLSetView.swift */; };
+		CF53E7C91AC3A5B900622EEB /* RLSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7B51AC3A5B900622EEB /* RLSetViewController.swift */; };
+		CF53E7CA1AC3A5B900622EEB /* RLUserSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53E7B61AC3A5B900622EEB /* RLUserSetView.swift */; };
+		CFDA05381AC1260900BFEDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05371AC1260900BFEDA7 /* AppDelegate.swift */; };
+		CFDA053B1AC1260900BFEDA7 /* rlterm5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05391AC1260900BFEDA7 /* rlterm5.xcdatamodeld */; };
+		CFDA053D1AC1260900BFEDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA053C1AC1260900BFEDA7 /* ViewController.swift */; };
+		CFDA05401AC1260900BFEDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDA053E1AC1260900BFEDA7 /* Main.storyboard */; };
+		CFDA05421AC1260900BFEDA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA05411AC1260900BFEDA7 /* Images.xcassets */; };
+		CFDA05451AC1260900BFEDA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDA05431AC1260900BFEDA7 /* LaunchScreen.xib */; };
+		CFDA05511AC1260900BFEDA7 /* rlterm5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05501AC1260900BFEDA7 /* rlterm5Tests.swift */; };
+		CFDA05641AC1267600BFEDA7 /* RLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA05631AC1267600BFEDA7 /* RLNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA056A1AC1267700BFEDA7 /* RLNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA055F1AC1267600BFEDA7 /* RLNetwork.framework */; };
+		CFDA05731AC1267700BFEDA7 /* RLNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05721AC1267700BFEDA7 /* RLNetworkTests.swift */; };
+		CFDA05761AC1267700BFEDA7 /* RLNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA055F1AC1267600BFEDA7 /* RLNetwork.framework */; };
+		CFDA05771AC1267700BFEDA7 /* RLNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA055F1AC1267600BFEDA7 /* RLNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDA05811AC1274800BFEDA7 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05801AC1274800BFEDA7 /* Alamofire.swift */; };
+		CFDA05831AC127AE00BFEDA7 /* RLHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05821AC127AE00BFEDA7 /* RLHttpClient.swift */; };
+		CFDA05941AC12A8C00BFEDA7 /* RLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA05931AC12A8C00BFEDA7 /* RLCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA059A1AC12A8C00BFEDA7 /* RLCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA058F1AC12A8C00BFEDA7 /* RLCore.framework */; };
+		CFDA05A31AC12A8D00BFEDA7 /* RLCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05A21AC12A8D00BFEDA7 /* RLCoreTests.swift */; };
+		CFDA05A61AC12A8D00BFEDA7 /* RLCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA058F1AC12A8C00BFEDA7 /* RLCore.framework */; };
+		CFDA05A71AC12A8D00BFEDA7 /* RLCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA058F1AC12A8C00BFEDA7 /* RLCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDA05B81AC12AC200BFEDA7 /* RLUtillties.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA05B71AC12AC200BFEDA7 /* RLUtillties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA05BE1AC12AC200BFEDA7 /* RLUtillties.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05B31AC12AC200BFEDA7 /* RLUtillties.framework */; };
+		CFDA05C71AC12AC200BFEDA7 /* RLUtilltiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05C61AC12AC200BFEDA7 /* RLUtilltiesTests.swift */; };
+		CFDA05CA1AC12AC200BFEDA7 /* RLUtillties.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05B31AC12AC200BFEDA7 /* RLUtillties.framework */; };
+		CFDA05CB1AC12AC200BFEDA7 /* RLUtillties.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05B31AC12AC200BFEDA7 /* RLUtillties.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDA05DC1AC12B1F00BFEDA7 /* RLUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA05DB1AC12B1F00BFEDA7 /* RLUIComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA05E21AC12B1F00BFEDA7 /* RLUIComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05D71AC12B1F00BFEDA7 /* RLUIComponent.framework */; };
+		CFDA05EB1AC12B1F00BFEDA7 /* RLUIComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA05EA1AC12B1F00BFEDA7 /* RLUIComponentTests.swift */; };
+		CFDA05EE1AC12B1F00BFEDA7 /* RLUIComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05D71AC12B1F00BFEDA7 /* RLUIComponent.framework */; };
+		CFDA05EF1AC12B1F00BFEDA7 /* RLUIComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05D71AC12B1F00BFEDA7 /* RLUIComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDA06001AC12BA600BFEDA7 /* RLConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA05FF1AC12BA600BFEDA7 /* RLConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA06061AC12BA600BFEDA7 /* RLConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05FB1AC12BA600BFEDA7 /* RLConfiguration.framework */; };
+		CFDA060F1AC12BA600BFEDA7 /* RLConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA060E1AC12BA600BFEDA7 /* RLConfigurationTests.swift */; };
+		CFDA06121AC12BA600BFEDA7 /* RLConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05FB1AC12BA600BFEDA7 /* RLConfiguration.framework */; };
+		CFDA06131AC12BA600BFEDA7 /* RLConfiguration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA05FB1AC12BA600BFEDA7 /* RLConfiguration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDA061B1AC12C5E00BFEDA7 /* RLHttpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA061A1AC12C5E00BFEDA7 /* RLHttpTask.swift */; };
+		CFDA061F1AC12C9600BFEDA7 /* RLUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA061C1AC12C9600BFEDA7 /* RLUtilities.swift */; };
+		CFDA06201AC12C9600BFEDA7 /* RLHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA061D1AC12C9600BFEDA7 /* RLHUD.swift */; };
+		CFDA06211AC12C9600BFEDA7 /* RLLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA061E1AC12C9600BFEDA7 /* RLLogger.swift */; };
+		CFDA06231AC12CE100BFEDA7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06221AC12CE100BFEDA7 /* SwiftyJSON.swift */; };
+		CFDA06261AC12CEF00BFEDA7 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06241AC12CEF00BFEDA7 /* AEXML.swift */; };
+		CFDA06271AC12CEF00BFEDA7 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06251AC12CEF00BFEDA7 /* SWXMLHash.swift */; };
+		CFDA06321AC12D4600BFEDA7 /* RLDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA06311AC12D4600BFEDA7 /* RLDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA06381AC12D4600BFEDA7 /* RLDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA062D1AC12D4600BFEDA7 /* RLDatabase.framework */; };
+		CFDA06411AC12D4700BFEDA7 /* RLDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06401AC12D4700BFEDA7 /* RLDatabaseTests.swift */; };
+		CFDA06441AC12D4700BFEDA7 /* RLDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA062D1AC12D4600BFEDA7 /* RLDatabase.framework */; };
+		CFDA06451AC12D4700BFEDA7 /* RLDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDA062D1AC12D4600BFEDA7 /* RLDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDA064D1AC12D9000BFEDA7 /* RLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA064C1AC12D9000BFEDA7 /* RLConfig.swift */; };
+		CFDA065C1AC12DEB00BFEDA7 /* RLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA064F1AC12DEB00BFEDA7 /* RLNode.swift */; };
+		CFDA065D1AC12DEB00BFEDA7 /* RLTerminalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06501AC12DEB00BFEDA7 /* RLTerminalInfo.swift */; };
+		CFDA065E1AC12DEB00BFEDA7 /* RLComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06511AC12DEB00BFEDA7 /* RLComponent.swift */; };
+		CFDA065F1AC12DEB00BFEDA7 /* RLParseContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06521AC12DEB00BFEDA7 /* RLParseContent.swift */; };
+		CFDA06601AC12DEB00BFEDA7 /* RLParseComponet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06531AC12DEB00BFEDA7 /* RLParseComponet.swift */; };
+		CFDA06611AC12DEB00BFEDA7 /* RLXMLComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06541AC12DEB00BFEDA7 /* RLXMLComponent.swift */; };
+		CFDA06621AC12DEB00BFEDA7 /* RLJSONComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06551AC12DEB00BFEDA7 /* RLJSONComponent.swift */; };
+		CFDA06631AC12DEB00BFEDA7 /* RLShopInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06561AC12DEB00BFEDA7 /* RLShopInfo.swift */; };
+		CFDA06641AC12DEB00BFEDA7 /* RLStaffList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06571AC12DEB00BFEDA7 /* RLStaffList.swift */; };
+		CFDA06651AC12DEB00BFEDA7 /* RLCheckingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06581AC12DEB00BFEDA7 /* RLCheckingStatus.swift */; };
+		CFDA06661AC12DEB00BFEDA7 /* RLPointSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA06591AC12DEB00BFEDA7 /* RLPointSetting.swift */; };
+		CFDA06671AC12DEB00BFEDA7 /* RLBookTicketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA065A1AC12DEB00BFEDA7 /* RLBookTicketList.swift */; };
+		CFDA06681AC12DEB00BFEDA7 /* RLProductTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA065B1AC12DEB00BFEDA7 /* RLProductTree.swift */; };
+		CFDA066B1AC12E1100BFEDA7 /* RLReservationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA066A1AC12E1100BFEDA7 /* RLReservationSystem.swift */; };
+		CFDA06871AC1340900BFEDA7 /* buildinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFDA066F1AC1340900BFEDA7 /* buildinfo.plist */; };
+		CFDA06881AC1340900BFEDA7 /* buildinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFDA066F1AC1340900BFEDA7 /* buildinfo.plist */; };
+		CFDA06891AC1340900BFEDA7 /* buildinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFDA066F1AC1340900BFEDA7 /* buildinfo.plist */; };
+		CFDA068A1AC1340900BFEDA7 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06701AC1340900BFEDA7 /* config.xml */; };
+		CFDA068B1AC1340900BFEDA7 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06701AC1340900BFEDA7 /* config.xml */; };
+		CFDA068C1AC1340900BFEDA7 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06701AC1340900BFEDA7 /* config.xml */; };
+		CFDA068D1AC1340900BFEDA7 /* termconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06711AC1340900BFEDA7 /* termconfig.xml */; };
+		CFDA068E1AC1340900BFEDA7 /* termconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06711AC1340900BFEDA7 /* termconfig.xml */; };
+		CFDA068F1AC1340900BFEDA7 /* termconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06711AC1340900BFEDA7 /* termconfig.xml */; };
+		CFDA06901AC1340900BFEDA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06731AC1340900BFEDA7 /* Localizable.strings */; };
+		CFDA06911AC1340900BFEDA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06731AC1340900BFEDA7 /* Localizable.strings */; };
+		CFDA06921AC1340900BFEDA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06731AC1340900BFEDA7 /* Localizable.strings */; };
+		CFDA06931AC1340900BFEDA7 /* CheckoutDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06771AC1340900BFEDA7 /* CheckoutDummy.xml */; };
+		CFDA06941AC1340900BFEDA7 /* CheckoutDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06771AC1340900BFEDA7 /* CheckoutDummy.xml */; };
+		CFDA06951AC1340900BFEDA7 /* CheckoutDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06771AC1340900BFEDA7 /* CheckoutDummy.xml */; };
+		CFDA06961AC1340900BFEDA7 /* CustomerDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06781AC1340900BFEDA7 /* CustomerDummy.xml */; };
+		CFDA06971AC1340900BFEDA7 /* CustomerDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06781AC1340900BFEDA7 /* CustomerDummy.xml */; };
+		CFDA06981AC1340900BFEDA7 /* CustomerDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06781AC1340900BFEDA7 /* CustomerDummy.xml */; };
+		CFDA06991AC1340900BFEDA7 /* GetSalesRecordsKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml */; };
+		CFDA069A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml */; };
+		CFDA069B1AC1340900BFEDA7 /* GetSalesRecordsKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml */; };
+		CFDA069C1AC1340900BFEDA7 /* SearchCustomerKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067B1AC1340900BFEDA7 /* SearchCustomerKF.xml */; };
+		CFDA069D1AC1340900BFEDA7 /* SearchCustomerKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067B1AC1340900BFEDA7 /* SearchCustomerKF.xml */; };
+		CFDA069E1AC1340900BFEDA7 /* SearchCustomerKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067B1AC1340900BFEDA7 /* SearchCustomerKF.xml */; };
+		CFDA069F1AC1340900BFEDA7 /* ShopInfoKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067C1AC1340900BFEDA7 /* ShopInfoKF.xml */; };
+		CFDA06A01AC1340900BFEDA7 /* ShopInfoKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067C1AC1340900BFEDA7 /* ShopInfoKF.xml */; };
+		CFDA06A11AC1340900BFEDA7 /* ShopInfoKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067C1AC1340900BFEDA7 /* ShopInfoKF.xml */; };
+		CFDA06A21AC1340900BFEDA7 /* TerminalInfoDummyKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067D1AC1340900BFEDA7 /* TerminalInfoDummyKF.xml */; };
+		CFDA06A31AC1340900BFEDA7 /* TerminalInfoDummyKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067D1AC1340900BFEDA7 /* TerminalInfoDummyKF.xml */; };
+		CFDA06A41AC1340900BFEDA7 /* TerminalInfoDummyKF.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067D1AC1340900BFEDA7 /* TerminalInfoDummyKF.xml */; };
+		CFDA06A51AC1340900BFEDA7 /* GetSalesRecordsMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067F1AC1340900BFEDA7 /* GetSalesRecordsMH.xml */; };
+		CFDA06A61AC1340900BFEDA7 /* GetSalesRecordsMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067F1AC1340900BFEDA7 /* GetSalesRecordsMH.xml */; };
+		CFDA06A71AC1340900BFEDA7 /* GetSalesRecordsMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA067F1AC1340900BFEDA7 /* GetSalesRecordsMH.xml */; };
+		CFDA06A81AC1340900BFEDA7 /* SearchCustomerMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06801AC1340900BFEDA7 /* SearchCustomerMH.xml */; };
+		CFDA06A91AC1340900BFEDA7 /* SearchCustomerMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06801AC1340900BFEDA7 /* SearchCustomerMH.xml */; };
+		CFDA06AA1AC1340900BFEDA7 /* SearchCustomerMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06801AC1340900BFEDA7 /* SearchCustomerMH.xml */; };
+		CFDA06AB1AC1340900BFEDA7 /* ShopInfoMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06811AC1340900BFEDA7 /* ShopInfoMH.xml */; };
+		CFDA06AC1AC1340900BFEDA7 /* ShopInfoMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06811AC1340900BFEDA7 /* ShopInfoMH.xml */; };
+		CFDA06AD1AC1340900BFEDA7 /* ShopInfoMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06811AC1340900BFEDA7 /* ShopInfoMH.xml */; };
+		CFDA06AE1AC1340900BFEDA7 /* TerminalInfoDummyMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06821AC1340900BFEDA7 /* TerminalInfoDummyMH.xml */; };
+		CFDA06AF1AC1340900BFEDA7 /* TerminalInfoDummyMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06821AC1340900BFEDA7 /* TerminalInfoDummyMH.xml */; };
+		CFDA06B01AC1340900BFEDA7 /* TerminalInfoDummyMH.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06821AC1340900BFEDA7 /* TerminalInfoDummyMH.xml */; };
+		CFDA06B11AC1340900BFEDA7 /* SalesDetailDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06831AC1340900BFEDA7 /* SalesDetailDummy.xml */; };
+		CFDA06B21AC1340900BFEDA7 /* SalesDetailDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06831AC1340900BFEDA7 /* SalesDetailDummy.xml */; };
+		CFDA06B31AC1340900BFEDA7 /* SalesDetailDummy.xml in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06831AC1340900BFEDA7 /* SalesDetailDummy.xml */; };
+		CFDA06B41AC1340900BFEDA7 /* RLConfigSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06851AC1340900BFEDA7 /* RLConfigSetting.json */; };
+		CFDA06B51AC1340900BFEDA7 /* RLConfigSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06851AC1340900BFEDA7 /* RLConfigSetting.json */; };
+		CFDA06B61AC1340900BFEDA7 /* RLConfigSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06851AC1340900BFEDA7 /* RLConfigSetting.json */; };
+		CFDA06B71AC1340900BFEDA7 /* RLUserConfigSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06861AC1340900BFEDA7 /* RLUserConfigSetting.json */; };
+		CFDA06B81AC1340900BFEDA7 /* RLUserConfigSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06861AC1340900BFEDA7 /* RLUserConfigSetting.json */; };
+		CFDA06B91AC1340900BFEDA7 /* RLUserConfigSetting.json in Resources */ = {isa = PBXBuildFile; fileRef = CFDA06861AC1340900BFEDA7 /* RLUserConfigSetting.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDA054B1AC1260900BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA056B1AC1267700BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA055E1AC1267600BFEDA7;
+			remoteInfo = RLNetwork;
+		};
+		CFDA056D1AC1267700BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA05741AC1267700BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA055E1AC1267600BFEDA7;
+			remoteInfo = RLNetwork;
+		};
+		CFDA059B1AC12A8C00BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA058E1AC12A8C00BFEDA7;
+			remoteInfo = RLCore;
+		};
+		CFDA059D1AC12A8D00BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA05A41AC12A8D00BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA058E1AC12A8C00BFEDA7;
+			remoteInfo = RLCore;
+		};
+		CFDA05BF1AC12AC200BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05B21AC12AC200BFEDA7;
+			remoteInfo = RLUtillties;
+		};
+		CFDA05C11AC12AC200BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA05C81AC12AC200BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05B21AC12AC200BFEDA7;
+			remoteInfo = RLUtillties;
+		};
+		CFDA05E31AC12B1F00BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05D61AC12B1F00BFEDA7;
+			remoteInfo = RLUIComponent;
+		};
+		CFDA05E51AC12B1F00BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA05EC1AC12B1F00BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05D61AC12B1F00BFEDA7;
+			remoteInfo = RLUIComponent;
+		};
+		CFDA06071AC12BA600BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05FA1AC12BA600BFEDA7;
+			remoteInfo = RLConfiguration;
+		};
+		CFDA06091AC12BA600BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA06101AC12BA600BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05FA1AC12BA600BFEDA7;
+			remoteInfo = RLConfiguration;
+		};
+		CFDA06391AC12D4600BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA062C1AC12D4600BFEDA7;
+			remoteInfo = RLDatabase;
+		};
+		CFDA063B1AC12D4600BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA05311AC1260900BFEDA7;
+			remoteInfo = rlterm5;
+		};
+		CFDA06421AC12D4700BFEDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA052A1AC1260900BFEDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA062C1AC12D4600BFEDA7;
+			remoteInfo = RLDatabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFDA057B1AC1267700BFEDA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFDA05771AC1267700BFEDA7 /* RLNetwork.framework in Embed Frameworks */,
+				CFDA05CB1AC12AC200BFEDA7 /* RLUtillties.framework in Embed Frameworks */,
+				CFDA06131AC12BA600BFEDA7 /* RLConfiguration.framework in Embed Frameworks */,
+				CFDA05EF1AC12B1F00BFEDA7 /* RLUIComponent.framework in Embed Frameworks */,
+				CFDA05A71AC12A8D00BFEDA7 /* RLCore.framework in Embed Frameworks */,
+				CFDA06451AC12D4700BFEDA7 /* RLDatabase.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF53E7241AC3A53A00622EEB /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		CF53E7251AC3A53A00622EEB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CF53E7261AC3A53A00622EEB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		CF53E72C1AC3A54200622EEB /* login_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_bg@2x.png"; sourceTree = "<group>"; };
+		CF53E72D1AC3A54200622EEB /* login_inputbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_inputbox@2x.png"; sourceTree = "<group>"; };
+		CF53E72E1AC3A54200622EEB /* login_offline_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_offline_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E72F1AC3A54200622EEB /* login_online_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_online_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E7311AC3A54200622EEB /* btnGotoCH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnGotoCH@2x.png"; sourceTree = "<group>"; };
+		CF53E7321AC3A54200622EEB /* btnGotoCHl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnGotoCHl@2x.png"; sourceTree = "<group>"; };
+		CF53E7331AC3A54200622EEB /* firstmenu_bg0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_bg0@2x.png"; sourceTree = "<group>"; };
+		CF53E7341AC3A54200622EEB /* firstmenu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_bg@2x.png"; sourceTree = "<group>"; };
+		CF53E7351AC3A54200622EEB /* firstmenu_gukeguanli_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_gukeguanli_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E7361AC3A54200622EEB /* firstmenu_gukeguanli_btnl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_gukeguanli_btnl@2x.png"; sourceTree = "<group>"; };
+		CF53E7371AC3A54200622EEB /* firstmenu_maishang_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_maishang_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E7381AC3A54200622EEB /* firstmenu_maishang_btnl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_maishang_btnl@2x.png"; sourceTree = "<group>"; };
+		CF53E7391AC3A54200622EEB /* firstmenu_maishangguanli_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_maishangguanli_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E73A1AC3A54200622EEB /* firstmenu_maishangguanli_btnl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_maishangguanli_btnl@2x.png"; sourceTree = "<group>"; };
+		CF53E73B1AC3A54200622EEB /* firstmenu_survey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_survey@2x.png"; sourceTree = "<group>"; };
+		CF53E73C1AC3A54200622EEB /* firstmenu_surveyl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_surveyl@2x.png"; sourceTree = "<group>"; };
+		CF53E73D1AC3A54200622EEB /* firstmenu_tool_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_tool_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E73E1AC3A54200622EEB /* firstmenu_tool_btnl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstmenu_tool_btnl@2x.png"; sourceTree = "<group>"; };
+		CF53E73F1AC3A54200622EEB /* kara_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kara_logo@2x.png"; sourceTree = "<group>"; };
+		CF53E7401AC3A54200622EEB /* mh_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mh_logo@2x.png"; sourceTree = "<group>"; };
+		CF53E7411AC3A54200622EEB /* rese_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rese_btn@2x.png"; sourceTree = "<group>"; };
+		CF53E7421AC3A54200622EEB /* rese_btnl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rese_btnl@2x.png"; sourceTree = "<group>"; };
+		CF53E7431AC3A54200622EEB /* rl_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rl_logo@2x.png"; sourceTree = "<group>"; };
+		CF53E7451AC3A54200622EEB /* infoupdate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoupdate@2x.png"; sourceTree = "<group>"; };
+		CF53E7461AC3A54200622EEB /* infoupdatel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoupdatel@2x.png"; sourceTree = "<group>"; };
+		CF53E7471AC3A54200622EEB /* logoupdate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoupdate@2x.png"; sourceTree = "<group>"; };
+		CF53E7481AC3A54200622EEB /* logoupdatel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoupdatel@2x.png"; sourceTree = "<group>"; };
+		CF53E7491AC3A54200622EEB /* softwareupdate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "softwareupdate@2x.png"; sourceTree = "<group>"; };
+		CF53E74A1AC3A54200622EEB /* softwareupdatel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "softwareupdatel@2x.png"; sourceTree = "<group>"; };
+		CF53E74B1AC3A54200622EEB /* tool_Check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_Check@2x.png"; sourceTree = "<group>"; };
+		CF53E74C1AC3A54200622EEB /* tool_Check_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_Check_H@2x.png"; sourceTree = "<group>"; };
+		CF53E74D1AC3A54200622EEB /* tool_Exit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_Exit@2x.png"; sourceTree = "<group>"; };
+		CF53E74E1AC3A54200622EEB /* tool_Exit_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_Exit_H@2x.png"; sourceTree = "<group>"; };
+		CF53E74F1AC3A54200622EEB /* tool_inputbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_inputbg@2x.png"; sourceTree = "<group>"; };
+		CF53E7501AC3A54200622EEB /* tool_MakerSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_MakerSet@2x.png"; sourceTree = "<group>"; };
+		CF53E7511AC3A54200622EEB /* tool_MakerSet_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_MakerSet_H@2x.png"; sourceTree = "<group>"; };
+		CF53E7521AC3A54200622EEB /* tool_toolbarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_toolbarbg@2x.png"; sourceTree = "<group>"; };
+		CF53E7531AC3A54200622EEB /* tool_UpdateInfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_UpdateInfo@2x.png"; sourceTree = "<group>"; };
+		CF53E7541AC3A54200622EEB /* tool_UpdateInfo_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_UpdateInfo_H@2x.png"; sourceTree = "<group>"; };
+		CF53E7551AC3A54200622EEB /* tool_UserSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_UserSet@2x.png"; sourceTree = "<group>"; };
+		CF53E7561AC3A54200622EEB /* tool_UserSet_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_UserSet_H@2x.png"; sourceTree = "<group>"; };
+		CF53E7581AC3A54200622EEB /* addstaffloginbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addstaffloginbtn@2x.png"; sourceTree = "<group>"; };
+		CF53E7591AC3A54200622EEB /* addstaffloginbtnl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addstaffloginbtnl@2x.png"; sourceTree = "<group>"; };
+		CF53E75A1AC3A54200622EEB /* backbtnbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbtnbg@2x.png"; sourceTree = "<group>"; };
+		CF53E75B1AC3A54200622EEB /* backbtnbgl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbtnbgl@2x.png"; sourceTree = "<group>"; };
+		CF53E75C1AC3A54200622EEB /* Chargedevice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chargedevice@2x.png"; sourceTree = "<group>"; };
+		CF53E75D1AC3A54200622EEB /* Chargedevicel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chargedevicel@2x.png"; sourceTree = "<group>"; };
+		CF53E75E1AC3A54200622EEB /* helpbtnbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helpbtnbg@2x.png"; sourceTree = "<group>"; };
+		CF53E75F1AC3A54200622EEB /* helpbtnbgl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helpbtnbgl@2x.png"; sourceTree = "<group>"; };
+		CF53E7601AC3A54200622EEB /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		CF53E7611AC3A54200622EEB /* homel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homel@2x.png"; sourceTree = "<group>"; };
+		CF53E7621AC3A54200622EEB /* printer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "printer@2x.png"; sourceTree = "<group>"; };
+		CF53E7631AC3A54200622EEB /* printerl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "printerl@2x.png"; sourceTree = "<group>"; };
+		CF53E7641AC3A54200622EEB /* statusbarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusbarbg@2x.png"; sourceTree = "<group>"; };
+		CF53E79E1AC3A5B900622EEB /* RLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLLoginViewController.swift; sourceTree = "<group>"; };
+		CF53E7A01AC3A5B900622EEB /* RLControllerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLControllerManager.swift; sourceTree = "<group>"; };
+		CF53E7A11AC3A5B900622EEB /* RLMainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMainMenuController.swift; sourceTree = "<group>"; };
+		CF53E7A21AC3A5B900622EEB /* RLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLNavigationController.swift; sourceTree = "<group>"; };
+		CF53E7A41AC3A5B900622EEB /* RLStatusToolBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLStatusToolBarController.swift; sourceTree = "<group>"; };
+		CF53E7A51AC3A5B900622EEB /* RLStatusToolBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLStatusToolBarController.xib; sourceTree = "<group>"; };
+		CF53E7A71AC3A5B900622EEB /* RLReservationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLReservationController.swift; sourceTree = "<group>"; };
+		CF53E7A81AC3A5B900622EEB /* RLTimeLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLTimeLineController.swift; sourceTree = "<group>"; };
+		CF53E7A91AC3A5B900622EEB /* RLTimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLTimeTable.swift; sourceTree = "<group>"; };
+		CF53E7AB1AC3A5B900622EEB /* RLProductMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLProductMenuView.swift; sourceTree = "<group>"; };
+		CF53E7AC1AC3A5B900622EEB /* RLSellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLSellController.swift; sourceTree = "<group>"; };
+		CF53E7AE1AC3A5B900622EEB /* RLConfigCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLConfigCellView.swift; sourceTree = "<group>"; };
+		CF53E7AF1AC3A5B900622EEB /* RLMakerSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMakerSetView.swift; sourceTree = "<group>"; };
+		CF53E7B01AC3A5B900622EEB /* RLSetConfigItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLSetConfigItems.swift; sourceTree = "<group>"; };
+		CF53E7B11AC3A5B900622EEB /* RLSetToolMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLSetToolMenuView.swift; sourceTree = "<group>"; };
+		CF53E7B21AC3A5B900622EEB /* RLSetUpdateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLSetUpdateController.swift; sourceTree = "<group>"; };
+		CF53E7B31AC3A5B900622EEB /* RLSetUpdateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLSetUpdateController.xib; sourceTree = "<group>"; };
+		CF53E7B41AC3A5B900622EEB /* RLSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLSetView.swift; sourceTree = "<group>"; };
+		CF53E7B51AC3A5B900622EEB /* RLSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLSetViewController.swift; sourceTree = "<group>"; };
+		CF53E7B61AC3A5B900622EEB /* RLUserSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLUserSetView.swift; sourceTree = "<group>"; };
+		CFDA05321AC1260900BFEDA7 /* rlterm5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rlterm5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05361AC1260900BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05371AC1260900BFEDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFDA053A1AC1260900BFEDA7 /* rlterm5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rlterm5.xcdatamodel; sourceTree = "<group>"; };
+		CFDA053C1AC1260900BFEDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFDA053F1AC1260900BFEDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFDA05411AC1260900BFEDA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFDA05441AC1260900BFEDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFDA054A1AC1260900BFEDA7 /* rlterm5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rlterm5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA054F1AC1260900BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05501AC1260900BFEDA7 /* rlterm5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rlterm5Tests.swift; sourceTree = "<group>"; };
+		CFDA055F1AC1267600BFEDA7 /* RLNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05621AC1267600BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05631AC1267600BFEDA7 /* RLNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLNetwork.h; sourceTree = "<group>"; };
+		CFDA05691AC1267700BFEDA7 /* RLNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05711AC1267700BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05721AC1267700BFEDA7 /* RLNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLNetworkTests.swift; sourceTree = "<group>"; };
+		CFDA05801AC1274800BFEDA7 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		CFDA05821AC127AE00BFEDA7 /* RLHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLHttpClient.swift; sourceTree = "<group>"; };
+		CFDA058F1AC12A8C00BFEDA7 /* RLCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05921AC12A8C00BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05931AC12A8C00BFEDA7 /* RLCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLCore.h; sourceTree = "<group>"; };
+		CFDA05991AC12A8C00BFEDA7 /* RLCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05A11AC12A8D00BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05A21AC12A8D00BFEDA7 /* RLCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLCoreTests.swift; sourceTree = "<group>"; };
+		CFDA05B31AC12AC200BFEDA7 /* RLUtillties.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLUtillties.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05B61AC12AC200BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05B71AC12AC200BFEDA7 /* RLUtillties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLUtillties.h; sourceTree = "<group>"; };
+		CFDA05BD1AC12AC200BFEDA7 /* RLUtilltiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLUtilltiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05C51AC12AC200BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05C61AC12AC200BFEDA7 /* RLUtilltiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLUtilltiesTests.swift; sourceTree = "<group>"; };
+		CFDA05D71AC12B1F00BFEDA7 /* RLUIComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLUIComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05DA1AC12B1F00BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05DB1AC12B1F00BFEDA7 /* RLUIComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLUIComponent.h; sourceTree = "<group>"; };
+		CFDA05E11AC12B1F00BFEDA7 /* RLUIComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLUIComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05E91AC12B1F00BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05EA1AC12B1F00BFEDA7 /* RLUIComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLUIComponentTests.swift; sourceTree = "<group>"; };
+		CFDA05FB1AC12BA600BFEDA7 /* RLConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLConfiguration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA05FE1AC12BA600BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA05FF1AC12BA600BFEDA7 /* RLConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLConfiguration.h; sourceTree = "<group>"; };
+		CFDA06051AC12BA600BFEDA7 /* RLConfigurationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLConfigurationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA060D1AC12BA600BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA060E1AC12BA600BFEDA7 /* RLConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLConfigurationTests.swift; sourceTree = "<group>"; };
+		CFDA061A1AC12C5E00BFEDA7 /* RLHttpTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLHttpTask.swift; sourceTree = "<group>"; };
+		CFDA061C1AC12C9600BFEDA7 /* RLUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLUtilities.swift; sourceTree = "<group>"; };
+		CFDA061D1AC12C9600BFEDA7 /* RLHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLHUD.swift; sourceTree = "<group>"; };
+		CFDA061E1AC12C9600BFEDA7 /* RLLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLLogger.swift; sourceTree = "<group>"; };
+		CFDA06221AC12CE100BFEDA7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CFDA06241AC12CEF00BFEDA7 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		CFDA06251AC12CEF00BFEDA7 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		CFDA062D1AC12D4600BFEDA7 /* RLDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA06301AC12D4600BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA06311AC12D4600BFEDA7 /* RLDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLDatabase.h; sourceTree = "<group>"; };
+		CFDA06371AC12D4600BFEDA7 /* RLDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA063F1AC12D4700BFEDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA06401AC12D4700BFEDA7 /* RLDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLDatabaseTests.swift; sourceTree = "<group>"; };
+		CFDA064C1AC12D9000BFEDA7 /* RLConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLConfig.swift; sourceTree = "<group>"; };
+		CFDA064F1AC12DEB00BFEDA7 /* RLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLNode.swift; sourceTree = "<group>"; };
+		CFDA06501AC12DEB00BFEDA7 /* RLTerminalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLTerminalInfo.swift; sourceTree = "<group>"; };
+		CFDA06511AC12DEB00BFEDA7 /* RLComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLComponent.swift; sourceTree = "<group>"; };
+		CFDA06521AC12DEB00BFEDA7 /* RLParseContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLParseContent.swift; sourceTree = "<group>"; };
+		CFDA06531AC12DEB00BFEDA7 /* RLParseComponet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLParseComponet.swift; sourceTree = "<group>"; };
+		CFDA06541AC12DEB00BFEDA7 /* RLXMLComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLXMLComponent.swift; sourceTree = "<group>"; };
+		CFDA06551AC12DEB00BFEDA7 /* RLJSONComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLJSONComponent.swift; sourceTree = "<group>"; };
+		CFDA06561AC12DEB00BFEDA7 /* RLShopInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLShopInfo.swift; sourceTree = "<group>"; };
+		CFDA06571AC12DEB00BFEDA7 /* RLStaffList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLStaffList.swift; sourceTree = "<group>"; };
+		CFDA06581AC12DEB00BFEDA7 /* RLCheckingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLCheckingStatus.swift; sourceTree = "<group>"; };
+		CFDA06591AC12DEB00BFEDA7 /* RLPointSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLPointSetting.swift; sourceTree = "<group>"; };
+		CFDA065A1AC12DEB00BFEDA7 /* RLBookTicketList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLBookTicketList.swift; sourceTree = "<group>"; };
+		CFDA065B1AC12DEB00BFEDA7 /* RLProductTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLProductTree.swift; sourceTree = "<group>"; };
+		CFDA066A1AC12E1100BFEDA7 /* RLReservationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLReservationSystem.swift; sourceTree = "<group>"; };
+		CFDA066F1AC1340900BFEDA7 /* buildinfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = buildinfo.plist; sourceTree = "<group>"; };
+		CFDA06701AC1340900BFEDA7 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		CFDA06711AC1340900BFEDA7 /* termconfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = termconfig.xml; sourceTree = "<group>"; };
+		CFDA06741AC1340900BFEDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFDA06751AC1340900BFEDA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFDA06771AC1340900BFEDA7 /* CheckoutDummy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CheckoutDummy.xml; sourceTree = "<group>"; };
+		CFDA06781AC1340900BFEDA7 /* CustomerDummy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CustomerDummy.xml; sourceTree = "<group>"; };
+		CFDA067A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GetSalesRecordsKF.xml; sourceTree = "<group>"; };
+		CFDA067B1AC1340900BFEDA7 /* SearchCustomerKF.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SearchCustomerKF.xml; sourceTree = "<group>"; };
+		CFDA067C1AC1340900BFEDA7 /* ShopInfoKF.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ShopInfoKF.xml; sourceTree = "<group>"; };
+		CFDA067D1AC1340900BFEDA7 /* TerminalInfoDummyKF.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TerminalInfoDummyKF.xml; sourceTree = "<group>"; };
+		CFDA067F1AC1340900BFEDA7 /* GetSalesRecordsMH.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GetSalesRecordsMH.xml; sourceTree = "<group>"; };
+		CFDA06801AC1340900BFEDA7 /* SearchCustomerMH.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SearchCustomerMH.xml; sourceTree = "<group>"; };
+		CFDA06811AC1340900BFEDA7 /* ShopInfoMH.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ShopInfoMH.xml; sourceTree = "<group>"; };
+		CFDA06821AC1340900BFEDA7 /* TerminalInfoDummyMH.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TerminalInfoDummyMH.xml; sourceTree = "<group>"; };
+		CFDA06831AC1340900BFEDA7 /* SalesDetailDummy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SalesDetailDummy.xml; sourceTree = "<group>"; };
+		CFDA06851AC1340900BFEDA7 /* RLConfigSetting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RLConfigSetting.json; sourceTree = "<group>"; };
+		CFDA06861AC1340900BFEDA7 /* RLUserConfigSetting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RLUserConfigSetting.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDA052F1AC1260900BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05761AC1267700BFEDA7 /* RLNetwork.framework in Frameworks */,
+				CFDA05CA1AC12AC200BFEDA7 /* RLUtillties.framework in Frameworks */,
+				CFDA06121AC12BA600BFEDA7 /* RLConfiguration.framework in Frameworks */,
+				CFDA05EE1AC12B1F00BFEDA7 /* RLUIComponent.framework in Frameworks */,
+				CFDA05A61AC12A8D00BFEDA7 /* RLCore.framework in Frameworks */,
+				CFDA06441AC12D4700BFEDA7 /* RLDatabase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05471AC1260900BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA055B1AC1267600BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05661AC1267700BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA056A1AC1267700BFEDA7 /* RLNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA058B1AC12A8C00BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05961AC12A8C00BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA059A1AC12A8C00BFEDA7 /* RLCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05AF1AC12AC200BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05BA1AC12AC200BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05BE1AC12AC200BFEDA7 /* RLUtillties.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05D31AC12B1F00BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05DE1AC12B1F00BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05E21AC12B1F00BFEDA7 /* RLUIComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05F71AC12BA600BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06021AC12BA600BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA06061AC12BA600BFEDA7 /* RLConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06291AC12D4600BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06341AC12D4600BFEDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA06381AC12D4600BFEDA7 /* RLDatabase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF53E72A1AC3A54200622EEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E72B1AC3A54200622EEB /* Login */,
+				CF53E7301AC3A54200622EEB /* MainMenu */,
+				CF53E7441AC3A54200622EEB /* Set */,
+				CF53E7571AC3A54200622EEB /* Status */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF53E72B1AC3A54200622EEB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E72C1AC3A54200622EEB /* login_bg@2x.png */,
+				CF53E72D1AC3A54200622EEB /* login_inputbox@2x.png */,
+				CF53E72E1AC3A54200622EEB /* login_offline_btn@2x.png */,
+				CF53E72F1AC3A54200622EEB /* login_online_btn@2x.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CF53E7301AC3A54200622EEB /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7311AC3A54200622EEB /* btnGotoCH@2x.png */,
+				CF53E7321AC3A54200622EEB /* btnGotoCHl@2x.png */,
+				CF53E7331AC3A54200622EEB /* firstmenu_bg0@2x.png */,
+				CF53E7341AC3A54200622EEB /* firstmenu_bg@2x.png */,
+				CF53E7351AC3A54200622EEB /* firstmenu_gukeguanli_btn@2x.png */,
+				CF53E7361AC3A54200622EEB /* firstmenu_gukeguanli_btnl@2x.png */,
+				CF53E7371AC3A54200622EEB /* firstmenu_maishang_btn@2x.png */,
+				CF53E7381AC3A54200622EEB /* firstmenu_maishang_btnl@2x.png */,
+				CF53E7391AC3A54200622EEB /* firstmenu_maishangguanli_btn@2x.png */,
+				CF53E73A1AC3A54200622EEB /* firstmenu_maishangguanli_btnl@2x.png */,
+				CF53E73B1AC3A54200622EEB /* firstmenu_survey@2x.png */,
+				CF53E73C1AC3A54200622EEB /* firstmenu_surveyl@2x.png */,
+				CF53E73D1AC3A54200622EEB /* firstmenu_tool_btn@2x.png */,
+				CF53E73E1AC3A54200622EEB /* firstmenu_tool_btnl@2x.png */,
+				CF53E73F1AC3A54200622EEB /* kara_logo@2x.png */,
+				CF53E7401AC3A54200622EEB /* mh_logo@2x.png */,
+				CF53E7411AC3A54200622EEB /* rese_btn@2x.png */,
+				CF53E7421AC3A54200622EEB /* rese_btnl@2x.png */,
+				CF53E7431AC3A54200622EEB /* rl_logo@2x.png */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		CF53E7441AC3A54200622EEB /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7451AC3A54200622EEB /* infoupdate@2x.png */,
+				CF53E7461AC3A54200622EEB /* infoupdatel@2x.png */,
+				CF53E7471AC3A54200622EEB /* logoupdate@2x.png */,
+				CF53E7481AC3A54200622EEB /* logoupdatel@2x.png */,
+				CF53E7491AC3A54200622EEB /* softwareupdate@2x.png */,
+				CF53E74A1AC3A54200622EEB /* softwareupdatel@2x.png */,
+				CF53E74B1AC3A54200622EEB /* tool_Check@2x.png */,
+				CF53E74C1AC3A54200622EEB /* tool_Check_H@2x.png */,
+				CF53E74D1AC3A54200622EEB /* tool_Exit@2x.png */,
+				CF53E74E1AC3A54200622EEB /* tool_Exit_H@2x.png */,
+				CF53E74F1AC3A54200622EEB /* tool_inputbg@2x.png */,
+				CF53E7501AC3A54200622EEB /* tool_MakerSet@2x.png */,
+				CF53E7511AC3A54200622EEB /* tool_MakerSet_H@2x.png */,
+				CF53E7521AC3A54200622EEB /* tool_toolbarbg@2x.png */,
+				CF53E7531AC3A54200622EEB /* tool_UpdateInfo@2x.png */,
+				CF53E7541AC3A54200622EEB /* tool_UpdateInfo_H@2x.png */,
+				CF53E7551AC3A54200622EEB /* tool_UserSet@2x.png */,
+				CF53E7561AC3A54200622EEB /* tool_UserSet_H@2x.png */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		CF53E7571AC3A54200622EEB /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7581AC3A54200622EEB /* addstaffloginbtn@2x.png */,
+				CF53E7591AC3A54200622EEB /* addstaffloginbtnl@2x.png */,
+				CF53E75A1AC3A54200622EEB /* backbtnbg@2x.png */,
+				CF53E75B1AC3A54200622EEB /* backbtnbgl@2x.png */,
+				CF53E75C1AC3A54200622EEB /* Chargedevice@2x.png */,
+				CF53E75D1AC3A54200622EEB /* Chargedevicel@2x.png */,
+				CF53E75E1AC3A54200622EEB /* helpbtnbg@2x.png */,
+				CF53E75F1AC3A54200622EEB /* helpbtnbgl@2x.png */,
+				CF53E7601AC3A54200622EEB /* home@2x.png */,
+				CF53E7611AC3A54200622EEB /* homel@2x.png */,
+				CF53E7621AC3A54200622EEB /* printer@2x.png */,
+				CF53E7631AC3A54200622EEB /* printerl@2x.png */,
+				CF53E7641AC3A54200622EEB /* statusbarbg@2x.png */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		CF53E79B1AC3A5B900622EEB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E79C1AC3A5B900622EEB /* BaseComponent */,
+				CF53E79D1AC3A5B900622EEB /* Login */,
+				CF53E79F1AC3A5B900622EEB /* MainMenu */,
+				CF53E7A31AC3A5B900622EEB /* Public */,
+				CF53E7A61AC3A5B900622EEB /* Reservation */,
+				CF53E7AA1AC3A5B900622EEB /* Sell */,
+				CF53E7AD1AC3A5B900622EEB /* Set */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CF53E79C1AC3A5B900622EEB /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		CF53E79D1AC3A5B900622EEB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E79E1AC3A5B900622EEB /* RLLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CF53E79F1AC3A5B900622EEB /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7A01AC3A5B900622EEB /* RLControllerManager.swift */,
+				CF53E7A11AC3A5B900622EEB /* RLMainMenuController.swift */,
+				CF53E7A21AC3A5B900622EEB /* RLNavigationController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		CF53E7A31AC3A5B900622EEB /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7A41AC3A5B900622EEB /* RLStatusToolBarController.swift */,
+				CF53E7A51AC3A5B900622EEB /* RLStatusToolBarController.xib */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		CF53E7A61AC3A5B900622EEB /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7A71AC3A5B900622EEB /* RLReservationController.swift */,
+				CF53E7A81AC3A5B900622EEB /* RLTimeLineController.swift */,
+				CF53E7A91AC3A5B900622EEB /* RLTimeTable.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		CF53E7AA1AC3A5B900622EEB /* Sell */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7AB1AC3A5B900622EEB /* RLProductMenuView.swift */,
+				CF53E7AC1AC3A5B900622EEB /* RLSellController.swift */,
+			);
+			path = Sell;
+			sourceTree = "<group>";
+		};
+		CF53E7AD1AC3A5B900622EEB /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E7AE1AC3A5B900622EEB /* RLConfigCellView.swift */,
+				CF53E7AF1AC3A5B900622EEB /* RLMakerSetView.swift */,
+				CF53E7B01AC3A5B900622EEB /* RLSetConfigItems.swift */,
+				CF53E7B11AC3A5B900622EEB /* RLSetToolMenuView.swift */,
+				CF53E7B21AC3A5B900622EEB /* RLSetUpdateController.swift */,
+				CF53E7B31AC3A5B900622EEB /* RLSetUpdateController.xib */,
+				CF53E7B41AC3A5B900622EEB /* RLSetView.swift */,
+				CF53E7B51AC3A5B900622EEB /* RLSetViewController.swift */,
+				CF53E7B61AC3A5B900622EEB /* RLUserSetView.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		CFDA05291AC1260900BFEDA7 = {
+			isa = PBXGroup;
+			children = (
+				CFDA05341AC1260900BFEDA7 /* rlterm5 */,
+				CFDA054D1AC1260900BFEDA7 /* rlterm5Tests */,
+				CFDA05901AC12A8C00BFEDA7 /* RLCore */,
+				CFDA059F1AC12A8D00BFEDA7 /* RLCoreTests */,
+				CFDA05601AC1267600BFEDA7 /* RLNetwork */,
+				CFDA056F1AC1267700BFEDA7 /* RLNetworkTests */,
+				CFDA05B41AC12AC200BFEDA7 /* RLUtillties */,
+				CFDA05C31AC12AC200BFEDA7 /* RLUtilltiesTests */,
+				CFDA05D81AC12B1F00BFEDA7 /* RLUIComponent */,
+				CFDA05E71AC12B1F00BFEDA7 /* RLUIComponentTests */,
+				CFDA05FC1AC12BA600BFEDA7 /* RLConfiguration */,
+				CFDA060B1AC12BA600BFEDA7 /* RLConfigurationTests */,
+				CFDA062E1AC12D4600BFEDA7 /* RLDatabase */,
+				CFDA063D1AC12D4600BFEDA7 /* RLDatabaseTests */,
+				CFDA05331AC1260900BFEDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDA05331AC1260900BFEDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05321AC1260900BFEDA7 /* rlterm5.app */,
+				CFDA054A1AC1260900BFEDA7 /* rlterm5Tests.xctest */,
+				CFDA055F1AC1267600BFEDA7 /* RLNetwork.framework */,
+				CFDA05691AC1267700BFEDA7 /* RLNetworkTests.xctest */,
+				CFDA058F1AC12A8C00BFEDA7 /* RLCore.framework */,
+				CFDA05991AC12A8C00BFEDA7 /* RLCoreTests.xctest */,
+				CFDA05B31AC12AC200BFEDA7 /* RLUtillties.framework */,
+				CFDA05BD1AC12AC200BFEDA7 /* RLUtilltiesTests.xctest */,
+				CFDA05D71AC12B1F00BFEDA7 /* RLUIComponent.framework */,
+				CFDA05E11AC12B1F00BFEDA7 /* RLUIComponentTests.xctest */,
+				CFDA05FB1AC12BA600BFEDA7 /* RLConfiguration.framework */,
+				CFDA06051AC12BA600BFEDA7 /* RLConfigurationTests.xctest */,
+				CFDA062D1AC12D4600BFEDA7 /* RLDatabase.framework */,
+				CFDA06371AC12D4600BFEDA7 /* RLDatabaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDA05341AC1260900BFEDA7 /* rlterm5 */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA066D1AC1340900BFEDA7 /* Asset */,
+				CFDA05371AC1260900BFEDA7 /* AppDelegate.swift */,
+				CFDA053C1AC1260900BFEDA7 /* ViewController.swift */,
+				CF53E79B1AC3A5B900622EEB /* UI */,
+				CFDA053E1AC1260900BFEDA7 /* Main.storyboard */,
+				CFDA05411AC1260900BFEDA7 /* Images.xcassets */,
+				CFDA05431AC1260900BFEDA7 /* LaunchScreen.xib */,
+				CFDA05391AC1260900BFEDA7 /* rlterm5.xcdatamodeld */,
+				CF53E7241AC3A53A00622EEB /* Default-Landscape@2x.png */,
+				CF53E7251AC3A53A00622EEB /* Icon.png */,
+				CF53E7261AC3A53A00622EEB /* Icon@2x.png */,
+				CFDA05351AC1260900BFEDA7 /* Supporting Files */,
+			);
+			path = rlterm5;
+			sourceTree = "<group>";
+		};
+		CFDA05351AC1260900BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF53E72A1AC3A54200622EEB /* Images */,
+				CFDA05361AC1260900BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA054D1AC1260900BFEDA7 /* rlterm5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05501AC1260900BFEDA7 /* rlterm5Tests.swift */,
+				CFDA054E1AC1260900BFEDA7 /* Supporting Files */,
+			);
+			path = rlterm5Tests;
+			sourceTree = "<group>";
+		};
+		CFDA054E1AC1260900BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA054F1AC1260900BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05601AC1267600BFEDA7 /* RLNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05881AC12A6700BFEDA7 /* JSON */,
+				CFDA05891AC12A6700BFEDA7 /* XML */,
+				CFDA05631AC1267600BFEDA7 /* RLNetwork.h */,
+				CFDA05821AC127AE00BFEDA7 /* RLHttpClient.swift */,
+				CFDA061A1AC12C5E00BFEDA7 /* RLHttpTask.swift */,
+				CFDA05801AC1274800BFEDA7 /* Alamofire.swift */,
+				CFDA05611AC1267600BFEDA7 /* Supporting Files */,
+			);
+			path = RLNetwork;
+			sourceTree = "<group>";
+		};
+		CFDA05611AC1267600BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05621AC1267600BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA056F1AC1267700BFEDA7 /* RLNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05721AC1267700BFEDA7 /* RLNetworkTests.swift */,
+				CFDA05701AC1267700BFEDA7 /* Supporting Files */,
+			);
+			path = RLNetworkTests;
+			sourceTree = "<group>";
+		};
+		CFDA05701AC1267700BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05711AC1267700BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05881AC12A6700BFEDA7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06221AC12CE100BFEDA7 /* SwiftyJSON.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		CFDA05891AC12A6700BFEDA7 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06241AC12CEF00BFEDA7 /* AEXML.swift */,
+				CFDA06251AC12CEF00BFEDA7 /* SWXMLHash.swift */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		CFDA05901AC12A8C00BFEDA7 /* RLCore */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06691AC12E1100BFEDA7 /* Reservation */,
+				CFDA064E1AC12DD400BFEDA7 /* Base */,
+				CFDA05931AC12A8C00BFEDA7 /* RLCore.h */,
+				CFDA05911AC12A8C00BFEDA7 /* Supporting Files */,
+			);
+			path = RLCore;
+			sourceTree = "<group>";
+		};
+		CFDA05911AC12A8C00BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05921AC12A8C00BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA059F1AC12A8D00BFEDA7 /* RLCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05A21AC12A8D00BFEDA7 /* RLCoreTests.swift */,
+				CFDA05A01AC12A8D00BFEDA7 /* Supporting Files */,
+			);
+			path = RLCoreTests;
+			sourceTree = "<group>";
+		};
+		CFDA05A01AC12A8D00BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05A11AC12A8D00BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05B41AC12AC200BFEDA7 /* RLUtillties */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA061C1AC12C9600BFEDA7 /* RLUtilities.swift */,
+				CFDA061D1AC12C9600BFEDA7 /* RLHUD.swift */,
+				CFDA061E1AC12C9600BFEDA7 /* RLLogger.swift */,
+				CFDA05B71AC12AC200BFEDA7 /* RLUtillties.h */,
+				CFDA05B51AC12AC200BFEDA7 /* Supporting Files */,
+			);
+			path = RLUtillties;
+			sourceTree = "<group>";
+		};
+		CFDA05B51AC12AC200BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05B61AC12AC200BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05C31AC12AC200BFEDA7 /* RLUtilltiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05C61AC12AC200BFEDA7 /* RLUtilltiesTests.swift */,
+				CFDA05C41AC12AC200BFEDA7 /* Supporting Files */,
+			);
+			path = RLUtilltiesTests;
+			sourceTree = "<group>";
+		};
+		CFDA05C41AC12AC200BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05C51AC12AC200BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05D81AC12B1F00BFEDA7 /* RLUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05DB1AC12B1F00BFEDA7 /* RLUIComponent.h */,
+				CFDA05D91AC12B1F00BFEDA7 /* Supporting Files */,
+			);
+			path = RLUIComponent;
+			sourceTree = "<group>";
+		};
+		CFDA05D91AC12B1F00BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05DA1AC12B1F00BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05E71AC12B1F00BFEDA7 /* RLUIComponentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05EA1AC12B1F00BFEDA7 /* RLUIComponentTests.swift */,
+				CFDA05E81AC12B1F00BFEDA7 /* Supporting Files */,
+			);
+			path = RLUIComponentTests;
+			sourceTree = "<group>";
+		};
+		CFDA05E81AC12B1F00BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05E91AC12B1F00BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA05FC1AC12BA600BFEDA7 /* RLConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA064C1AC12D9000BFEDA7 /* RLConfig.swift */,
+				CFDA05FF1AC12BA600BFEDA7 /* RLConfiguration.h */,
+				CFDA05FD1AC12BA600BFEDA7 /* Supporting Files */,
+			);
+			path = RLConfiguration;
+			sourceTree = "<group>";
+		};
+		CFDA05FD1AC12BA600BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA05FE1AC12BA600BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA060B1AC12BA600BFEDA7 /* RLConfigurationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA060E1AC12BA600BFEDA7 /* RLConfigurationTests.swift */,
+				CFDA060C1AC12BA600BFEDA7 /* Supporting Files */,
+			);
+			path = RLConfigurationTests;
+			sourceTree = "<group>";
+		};
+		CFDA060C1AC12BA600BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA060D1AC12BA600BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA062E1AC12D4600BFEDA7 /* RLDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06311AC12D4600BFEDA7 /* RLDatabase.h */,
+				CFDA062F1AC12D4600BFEDA7 /* Supporting Files */,
+			);
+			path = RLDatabase;
+			sourceTree = "<group>";
+		};
+		CFDA062F1AC12D4600BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06301AC12D4600BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA063D1AC12D4600BFEDA7 /* RLDatabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06401AC12D4700BFEDA7 /* RLDatabaseTests.swift */,
+				CFDA063E1AC12D4700BFEDA7 /* Supporting Files */,
+			);
+			path = RLDatabaseTests;
+			sourceTree = "<group>";
+		};
+		CFDA063E1AC12D4700BFEDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA063F1AC12D4700BFEDA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA064E1AC12DD400BFEDA7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA064F1AC12DEB00BFEDA7 /* RLNode.swift */,
+				CFDA06511AC12DEB00BFEDA7 /* RLComponent.swift */,
+				CFDA06521AC12DEB00BFEDA7 /* RLParseContent.swift */,
+				CFDA06531AC12DEB00BFEDA7 /* RLParseComponet.swift */,
+				CFDA06541AC12DEB00BFEDA7 /* RLXMLComponent.swift */,
+				CFDA06551AC12DEB00BFEDA7 /* RLJSONComponent.swift */,
+				CFDA06501AC12DEB00BFEDA7 /* RLTerminalInfo.swift */,
+				CFDA06561AC12DEB00BFEDA7 /* RLShopInfo.swift */,
+				CFDA06571AC12DEB00BFEDA7 /* RLStaffList.swift */,
+				CFDA06581AC12DEB00BFEDA7 /* RLCheckingStatus.swift */,
+				CFDA06591AC12DEB00BFEDA7 /* RLPointSetting.swift */,
+				CFDA065A1AC12DEB00BFEDA7 /* RLBookTicketList.swift */,
+				CFDA065B1AC12DEB00BFEDA7 /* RLProductTree.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CFDA06691AC12E1100BFEDA7 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA066A1AC12E1100BFEDA7 /* RLReservationSystem.swift */,
+			);
+			name = Reservation;
+			path = "../../Work/SwiftCode/rlterm3/rlterm3/ Model/Reservation";
+			sourceTree = "<group>";
+		};
+		CFDA066D1AC1340900BFEDA7 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA066E1AC1340900BFEDA7 /* Config */,
+				CFDA06721AC1340900BFEDA7 /* LocalString */,
+				CFDA06761AC1340900BFEDA7 /* OfflineModeData */,
+				CFDA06841AC1340900BFEDA7 /* Set */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		CFDA066E1AC1340900BFEDA7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA066F1AC1340900BFEDA7 /* buildinfo.plist */,
+				CFDA06701AC1340900BFEDA7 /* config.xml */,
+				CFDA06711AC1340900BFEDA7 /* termconfig.xml */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CFDA06721AC1340900BFEDA7 /* LocalString */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06731AC1340900BFEDA7 /* Localizable.strings */,
+			);
+			path = LocalString;
+			sourceTree = "<group>";
+		};
+		CFDA06761AC1340900BFEDA7 /* OfflineModeData */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06771AC1340900BFEDA7 /* CheckoutDummy.xml */,
+				CFDA06781AC1340900BFEDA7 /* CustomerDummy.xml */,
+				CFDA06791AC1340900BFEDA7 /* KF */,
+				CFDA067E1AC1340900BFEDA7 /* MH */,
+				CFDA06831AC1340900BFEDA7 /* SalesDetailDummy.xml */,
+			);
+			path = OfflineModeData;
+			sourceTree = "<group>";
+		};
+		CFDA06791AC1340900BFEDA7 /* KF */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA067A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml */,
+				CFDA067B1AC1340900BFEDA7 /* SearchCustomerKF.xml */,
+				CFDA067C1AC1340900BFEDA7 /* ShopInfoKF.xml */,
+				CFDA067D1AC1340900BFEDA7 /* TerminalInfoDummyKF.xml */,
+			);
+			path = KF;
+			sourceTree = "<group>";
+		};
+		CFDA067E1AC1340900BFEDA7 /* MH */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA067F1AC1340900BFEDA7 /* GetSalesRecordsMH.xml */,
+				CFDA06801AC1340900BFEDA7 /* SearchCustomerMH.xml */,
+				CFDA06811AC1340900BFEDA7 /* ShopInfoMH.xml */,
+				CFDA06821AC1340900BFEDA7 /* TerminalInfoDummyMH.xml */,
+			);
+			path = MH;
+			sourceTree = "<group>";
+		};
+		CFDA06841AC1340900BFEDA7 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA06851AC1340900BFEDA7 /* RLConfigSetting.json */,
+				CFDA06861AC1340900BFEDA7 /* RLUserConfigSetting.json */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFDA055C1AC1267600BFEDA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05641AC1267600BFEDA7 /* RLNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA058C1AC12A8C00BFEDA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05941AC12A8C00BFEDA7 /* RLCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05B01AC12AC200BFEDA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05B81AC12AC200BFEDA7 /* RLUtillties.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05D41AC12B1F00BFEDA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05DC1AC12B1F00BFEDA7 /* RLUIComponent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05F81AC12BA600BFEDA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA06001AC12BA600BFEDA7 /* RLConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA062A1AC12D4600BFEDA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA06321AC12D4600BFEDA7 /* RLDatabase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFDA05311AC1260900BFEDA7 /* rlterm5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05541AC1260900BFEDA7 /* Build configuration list for PBXNativeTarget "rlterm5" */;
+			buildPhases = (
+				CFDA052E1AC1260900BFEDA7 /* Sources */,
+				CFDA052F1AC1260900BFEDA7 /* Frameworks */,
+				CFDA05301AC1260900BFEDA7 /* Resources */,
+				CFDA057B1AC1267700BFEDA7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA05751AC1267700BFEDA7 /* PBXTargetDependency */,
+				CFDA05A51AC12A8D00BFEDA7 /* PBXTargetDependency */,
+				CFDA05C91AC12AC200BFEDA7 /* PBXTargetDependency */,
+				CFDA05ED1AC12B1F00BFEDA7 /* PBXTargetDependency */,
+				CFDA06111AC12BA600BFEDA7 /* PBXTargetDependency */,
+				CFDA06431AC12D4700BFEDA7 /* PBXTargetDependency */,
+			);
+			name = rlterm5;
+			productName = rlterm5;
+			productReference = CFDA05321AC1260900BFEDA7 /* rlterm5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDA05491AC1260900BFEDA7 /* rlterm5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05571AC1260900BFEDA7 /* Build configuration list for PBXNativeTarget "rlterm5Tests" */;
+			buildPhases = (
+				CFDA05461AC1260900BFEDA7 /* Sources */,
+				CFDA05471AC1260900BFEDA7 /* Frameworks */,
+				CFDA05481AC1260900BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA054C1AC1260900BFEDA7 /* PBXTargetDependency */,
+			);
+			name = rlterm5Tests;
+			productName = rlterm5Tests;
+			productReference = CFDA054A1AC1260900BFEDA7 /* rlterm5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA055E1AC1267600BFEDA7 /* RLNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05781AC1267700BFEDA7 /* Build configuration list for PBXNativeTarget "RLNetwork" */;
+			buildPhases = (
+				CFDA055A1AC1267600BFEDA7 /* Sources */,
+				CFDA055B1AC1267600BFEDA7 /* Frameworks */,
+				CFDA055C1AC1267600BFEDA7 /* Headers */,
+				CFDA055D1AC1267600BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLNetwork;
+			productName = RLNetwork;
+			productReference = CFDA055F1AC1267600BFEDA7 /* RLNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA05681AC1267700BFEDA7 /* RLNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA057C1AC1267700BFEDA7 /* Build configuration list for PBXNativeTarget "RLNetworkTests" */;
+			buildPhases = (
+				CFDA05651AC1267700BFEDA7 /* Sources */,
+				CFDA05661AC1267700BFEDA7 /* Frameworks */,
+				CFDA05671AC1267700BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA056C1AC1267700BFEDA7 /* PBXTargetDependency */,
+				CFDA056E1AC1267700BFEDA7 /* PBXTargetDependency */,
+			);
+			name = RLNetworkTests;
+			productName = RLNetworkTests;
+			productReference = CFDA05691AC1267700BFEDA7 /* RLNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA058E1AC12A8C00BFEDA7 /* RLCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05A81AC12A8D00BFEDA7 /* Build configuration list for PBXNativeTarget "RLCore" */;
+			buildPhases = (
+				CFDA058A1AC12A8C00BFEDA7 /* Sources */,
+				CFDA058B1AC12A8C00BFEDA7 /* Frameworks */,
+				CFDA058C1AC12A8C00BFEDA7 /* Headers */,
+				CFDA058D1AC12A8C00BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLCore;
+			productName = RLCore;
+			productReference = CFDA058F1AC12A8C00BFEDA7 /* RLCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA05981AC12A8C00BFEDA7 /* RLCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05AB1AC12A8D00BFEDA7 /* Build configuration list for PBXNativeTarget "RLCoreTests" */;
+			buildPhases = (
+				CFDA05951AC12A8C00BFEDA7 /* Sources */,
+				CFDA05961AC12A8C00BFEDA7 /* Frameworks */,
+				CFDA05971AC12A8C00BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA059C1AC12A8C00BFEDA7 /* PBXTargetDependency */,
+				CFDA059E1AC12A8D00BFEDA7 /* PBXTargetDependency */,
+			);
+			name = RLCoreTests;
+			productName = RLCoreTests;
+			productReference = CFDA05991AC12A8C00BFEDA7 /* RLCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA05B21AC12AC200BFEDA7 /* RLUtillties */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05CC1AC12AC200BFEDA7 /* Build configuration list for PBXNativeTarget "RLUtillties" */;
+			buildPhases = (
+				CFDA05AE1AC12AC200BFEDA7 /* Sources */,
+				CFDA05AF1AC12AC200BFEDA7 /* Frameworks */,
+				CFDA05B01AC12AC200BFEDA7 /* Headers */,
+				CFDA05B11AC12AC200BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLUtillties;
+			productName = RLUtillties;
+			productReference = CFDA05B31AC12AC200BFEDA7 /* RLUtillties.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA05BC1AC12AC200BFEDA7 /* RLUtilltiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05CF1AC12AC200BFEDA7 /* Build configuration list for PBXNativeTarget "RLUtilltiesTests" */;
+			buildPhases = (
+				CFDA05B91AC12AC200BFEDA7 /* Sources */,
+				CFDA05BA1AC12AC200BFEDA7 /* Frameworks */,
+				CFDA05BB1AC12AC200BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA05C01AC12AC200BFEDA7 /* PBXTargetDependency */,
+				CFDA05C21AC12AC200BFEDA7 /* PBXTargetDependency */,
+			);
+			name = RLUtilltiesTests;
+			productName = RLUtilltiesTests;
+			productReference = CFDA05BD1AC12AC200BFEDA7 /* RLUtilltiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA05D61AC12B1F00BFEDA7 /* RLUIComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05F01AC12B2000BFEDA7 /* Build configuration list for PBXNativeTarget "RLUIComponent" */;
+			buildPhases = (
+				CFDA05D21AC12B1F00BFEDA7 /* Sources */,
+				CFDA05D31AC12B1F00BFEDA7 /* Frameworks */,
+				CFDA05D41AC12B1F00BFEDA7 /* Headers */,
+				CFDA05D51AC12B1F00BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLUIComponent;
+			productName = RLUIComponent;
+			productReference = CFDA05D71AC12B1F00BFEDA7 /* RLUIComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA05E01AC12B1F00BFEDA7 /* RLUIComponentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA05F31AC12B2000BFEDA7 /* Build configuration list for PBXNativeTarget "RLUIComponentTests" */;
+			buildPhases = (
+				CFDA05DD1AC12B1F00BFEDA7 /* Sources */,
+				CFDA05DE1AC12B1F00BFEDA7 /* Frameworks */,
+				CFDA05DF1AC12B1F00BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA05E41AC12B1F00BFEDA7 /* PBXTargetDependency */,
+				CFDA05E61AC12B1F00BFEDA7 /* PBXTargetDependency */,
+			);
+			name = RLUIComponentTests;
+			productName = RLUIComponentTests;
+			productReference = CFDA05E11AC12B1F00BFEDA7 /* RLUIComponentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA05FA1AC12BA600BFEDA7 /* RLConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA06141AC12BA700BFEDA7 /* Build configuration list for PBXNativeTarget "RLConfiguration" */;
+			buildPhases = (
+				CFDA05F61AC12BA600BFEDA7 /* Sources */,
+				CFDA05F71AC12BA600BFEDA7 /* Frameworks */,
+				CFDA05F81AC12BA600BFEDA7 /* Headers */,
+				CFDA05F91AC12BA600BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLConfiguration;
+			productName = RLConfiguration;
+			productReference = CFDA05FB1AC12BA600BFEDA7 /* RLConfiguration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA06041AC12BA600BFEDA7 /* RLConfigurationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA06171AC12BA700BFEDA7 /* Build configuration list for PBXNativeTarget "RLConfigurationTests" */;
+			buildPhases = (
+				CFDA06011AC12BA600BFEDA7 /* Sources */,
+				CFDA06021AC12BA600BFEDA7 /* Frameworks */,
+				CFDA06031AC12BA600BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA06081AC12BA600BFEDA7 /* PBXTargetDependency */,
+				CFDA060A1AC12BA600BFEDA7 /* PBXTargetDependency */,
+			);
+			name = RLConfigurationTests;
+			productName = RLConfigurationTests;
+			productReference = CFDA06051AC12BA600BFEDA7 /* RLConfigurationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDA062C1AC12D4600BFEDA7 /* RLDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA06461AC12D4700BFEDA7 /* Build configuration list for PBXNativeTarget "RLDatabase" */;
+			buildPhases = (
+				CFDA06281AC12D4600BFEDA7 /* Sources */,
+				CFDA06291AC12D4600BFEDA7 /* Frameworks */,
+				CFDA062A1AC12D4600BFEDA7 /* Headers */,
+				CFDA062B1AC12D4600BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLDatabase;
+			productName = RLDatabase;
+			productReference = CFDA062D1AC12D4600BFEDA7 /* RLDatabase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDA06361AC12D4600BFEDA7 /* RLDatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA06491AC12D4700BFEDA7 /* Build configuration list for PBXNativeTarget "RLDatabaseTests" */;
+			buildPhases = (
+				CFDA06331AC12D4600BFEDA7 /* Sources */,
+				CFDA06341AC12D4600BFEDA7 /* Frameworks */,
+				CFDA06351AC12D4600BFEDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA063A1AC12D4600BFEDA7 /* PBXTargetDependency */,
+				CFDA063C1AC12D4600BFEDA7 /* PBXTargetDependency */,
+			);
+			name = RLDatabaseTests;
+			productName = RLDatabaseTests;
+			productReference = CFDA06371AC12D4600BFEDA7 /* RLDatabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDA052A1AC1260900BFEDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = houfeng;
+				TargetAttributes = {
+					CFDA05311AC1260900BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA05491AC1260900BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+					CFDA055E1AC1267600BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA05681AC1267700BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+					CFDA058E1AC12A8C00BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA05981AC12A8C00BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+					CFDA05B21AC12AC200BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA05BC1AC12AC200BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+					CFDA05D61AC12B1F00BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA05E01AC12B1F00BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+					CFDA05FA1AC12BA600BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA06041AC12BA600BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+					CFDA062C1AC12D4600BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA06361AC12D4600BFEDA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA05311AC1260900BFEDA7;
+					};
+				};
+			};
+			buildConfigurationList = CFDA052D1AC1260900BFEDA7 /* Build configuration list for PBXProject "rlterm5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDA05291AC1260900BFEDA7;
+			productRefGroup = CFDA05331AC1260900BFEDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDA05311AC1260900BFEDA7 /* rlterm5 */,
+				CFDA05491AC1260900BFEDA7 /* rlterm5Tests */,
+				CFDA055E1AC1267600BFEDA7 /* RLNetwork */,
+				CFDA05681AC1267700BFEDA7 /* RLNetworkTests */,
+				CFDA058E1AC12A8C00BFEDA7 /* RLCore */,
+				CFDA05981AC12A8C00BFEDA7 /* RLCoreTests */,
+				CFDA05B21AC12AC200BFEDA7 /* RLUtillties */,
+				CFDA05BC1AC12AC200BFEDA7 /* RLUtilltiesTests */,
+				CFDA05D61AC12B1F00BFEDA7 /* RLUIComponent */,
+				CFDA05E01AC12B1F00BFEDA7 /* RLUIComponentTests */,
+				CFDA05FA1AC12BA600BFEDA7 /* RLConfiguration */,
+				CFDA06041AC12BA600BFEDA7 /* RLConfigurationTests */,
+				CFDA062C1AC12D4600BFEDA7 /* RLDatabase */,
+				CFDA06361AC12D4600BFEDA7 /* RLDatabaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDA05301AC1260900BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF53E7951AC3A54200622EEB /* helpbtnbgl@2x.png in Resources */,
+				CF53E7831AC3A54200622EEB /* tool_Check_H@2x.png in Resources */,
+				CF53E78D1AC3A54200622EEB /* tool_UserSet_H@2x.png in Resources */,
+				CF53E7781AC3A54200622EEB /* mh_logo@2x.png in Resources */,
+				CF53E7901AC3A54200622EEB /* backbtnbg@2x.png in Resources */,
+				CFDA05401AC1260900BFEDA7 /* Main.storyboard in Resources */,
+				CFDA06991AC1340900BFEDA7 /* GetSalesRecordsKF.xml in Resources */,
+				CFDA06871AC1340900BFEDA7 /* buildinfo.plist in Resources */,
+				CF53E78E1AC3A54200622EEB /* addstaffloginbtn@2x.png in Resources */,
+				CF53E7671AC3A54200622EEB /* login_offline_btn@2x.png in Resources */,
+				CFDA06B41AC1340900BFEDA7 /* RLConfigSetting.json in Resources */,
+				CF53E7721AC3A54200622EEB /* firstmenu_maishangguanli_btnl@2x.png in Resources */,
+				CF53E7971AC3A54200622EEB /* homel@2x.png in Resources */,
+				CF53E78B1AC3A54200622EEB /* tool_UpdateInfo_H@2x.png in Resources */,
+				CF53E76E1AC3A54200622EEB /* firstmenu_gukeguanli_btnl@2x.png in Resources */,
+				CFDA06A51AC1340900BFEDA7 /* GetSalesRecordsMH.xml in Resources */,
+				CF53E7651AC3A54200622EEB /* login_bg@2x.png in Resources */,
+				CF53E79A1AC3A54200622EEB /* statusbarbg@2x.png in Resources */,
+				CF53E76D1AC3A54200622EEB /* firstmenu_gukeguanli_btn@2x.png in Resources */,
+				CF53E7291AC3A53A00622EEB /* Icon@2x.png in Resources */,
+				CFDA069C1AC1340900BFEDA7 /* SearchCustomerKF.xml in Resources */,
+				CF53E7991AC3A54200622EEB /* printerl@2x.png in Resources */,
+				CF53E7731AC3A54200622EEB /* firstmenu_survey@2x.png in Resources */,
+				CF53E7711AC3A54200622EEB /* firstmenu_maishangguanli_btn@2x.png in Resources */,
+				CF53E7981AC3A54200622EEB /* printer@2x.png in Resources */,
+				CF53E7911AC3A54200622EEB /* backbtnbgl@2x.png in Resources */,
+				CFDA06931AC1340900BFEDA7 /* CheckoutDummy.xml in Resources */,
+				CF53E7681AC3A54200622EEB /* login_online_btn@2x.png in Resources */,
+				CF53E76A1AC3A54200622EEB /* btnGotoCHl@2x.png in Resources */,
+				CF53E7891AC3A54200622EEB /* tool_toolbarbg@2x.png in Resources */,
+				CF53E7861AC3A54200622EEB /* tool_inputbg@2x.png in Resources */,
+				CF53E7701AC3A54200622EEB /* firstmenu_maishang_btnl@2x.png in Resources */,
+				CF53E78F1AC3A54200622EEB /* addstaffloginbtnl@2x.png in Resources */,
+				CFDA06961AC1340900BFEDA7 /* CustomerDummy.xml in Resources */,
+				CF53E7751AC3A54200622EEB /* firstmenu_tool_btn@2x.png in Resources */,
+				CF53E76F1AC3A54200622EEB /* firstmenu_maishang_btn@2x.png in Resources */,
+				CF53E7C71AC3A5B900622EEB /* RLSetUpdateController.xib in Resources */,
+				CF53E7281AC3A53A00622EEB /* Icon.png in Resources */,
+				CFDA05451AC1260900BFEDA7 /* LaunchScreen.xib in Resources */,
+				CFDA06B71AC1340900BFEDA7 /* RLUserConfigSetting.json in Resources */,
+				CF53E7771AC3A54200622EEB /* kara_logo@2x.png in Resources */,
+				CF53E77D1AC3A54200622EEB /* infoupdatel@2x.png in Resources */,
+				CF53E7791AC3A54200622EEB /* rese_btn@2x.png in Resources */,
+				CF53E76B1AC3A54200622EEB /* firstmenu_bg0@2x.png in Resources */,
+				CF53E7841AC3A54200622EEB /* tool_Exit@2x.png in Resources */,
+				CFDA06AB1AC1340900BFEDA7 /* ShopInfoMH.xml in Resources */,
+				CF53E7821AC3A54200622EEB /* tool_Check@2x.png in Resources */,
+				CF53E7661AC3A54200622EEB /* login_inputbox@2x.png in Resources */,
+				CFDA06901AC1340900BFEDA7 /* Localizable.strings in Resources */,
+				CFDA069F1AC1340900BFEDA7 /* ShopInfoKF.xml in Resources */,
+				CF53E7741AC3A54200622EEB /* firstmenu_surveyl@2x.png in Resources */,
+				CFDA068D1AC1340900BFEDA7 /* termconfig.xml in Resources */,
+				CF53E7801AC3A54200622EEB /* softwareupdate@2x.png in Resources */,
+				CF53E7931AC3A54200622EEB /* Chargedevicel@2x.png in Resources */,
+				CF53E7871AC3A54200622EEB /* tool_MakerSet@2x.png in Resources */,
+				CFDA06B11AC1340900BFEDA7 /* SalesDetailDummy.xml in Resources */,
+				CF53E7811AC3A54200622EEB /* softwareupdatel@2x.png in Resources */,
+				CF53E78C1AC3A54200622EEB /* tool_UserSet@2x.png in Resources */,
+				CF53E7691AC3A54200622EEB /* btnGotoCH@2x.png in Resources */,
+				CF53E7881AC3A54200622EEB /* tool_MakerSet_H@2x.png in Resources */,
+				CF53E7921AC3A54200622EEB /* Chargedevice@2x.png in Resources */,
+				CFDA06A81AC1340900BFEDA7 /* SearchCustomerMH.xml in Resources */,
+				CF53E77B1AC3A54200622EEB /* rl_logo@2x.png in Resources */,
+				CF53E77E1AC3A54200622EEB /* logoupdate@2x.png in Resources */,
+				CF53E7BC1AC3A5B900622EEB /* RLStatusToolBarController.xib in Resources */,
+				CF53E7961AC3A54200622EEB /* home@2x.png in Resources */,
+				CF53E76C1AC3A54200622EEB /* firstmenu_bg@2x.png in Resources */,
+				CF53E7941AC3A54200622EEB /* helpbtnbg@2x.png in Resources */,
+				CF53E77F1AC3A54200622EEB /* logoupdatel@2x.png in Resources */,
+				CF53E7761AC3A54200622EEB /* firstmenu_tool_btnl@2x.png in Resources */,
+				CF53E7271AC3A53A00622EEB /* Default-Landscape@2x.png in Resources */,
+				CF53E78A1AC3A54200622EEB /* tool_UpdateInfo@2x.png in Resources */,
+				CFDA05421AC1260900BFEDA7 /* Images.xcassets in Resources */,
+				CFDA06A21AC1340900BFEDA7 /* TerminalInfoDummyKF.xml in Resources */,
+				CFDA068A1AC1340900BFEDA7 /* config.xml in Resources */,
+				CFDA06AE1AC1340900BFEDA7 /* TerminalInfoDummyMH.xml in Resources */,
+				CF53E7851AC3A54200622EEB /* tool_Exit_H@2x.png in Resources */,
+				CF53E77C1AC3A54200622EEB /* infoupdate@2x.png in Resources */,
+				CF53E77A1AC3A54200622EEB /* rese_btnl@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05481AC1260900BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA055D1AC1267600BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05671AC1267700BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA058D1AC12A8C00BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05971AC12A8C00BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05B11AC12AC200BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA069A1AC1340900BFEDA7 /* GetSalesRecordsKF.xml in Resources */,
+				CFDA06A31AC1340900BFEDA7 /* TerminalInfoDummyKF.xml in Resources */,
+				CFDA06971AC1340900BFEDA7 /* CustomerDummy.xml in Resources */,
+				CFDA06A01AC1340900BFEDA7 /* ShopInfoKF.xml in Resources */,
+				CFDA06941AC1340900BFEDA7 /* CheckoutDummy.xml in Resources */,
+				CFDA068E1AC1340900BFEDA7 /* termconfig.xml in Resources */,
+				CFDA06B81AC1340900BFEDA7 /* RLUserConfigSetting.json in Resources */,
+				CFDA06B21AC1340900BFEDA7 /* SalesDetailDummy.xml in Resources */,
+				CFDA069D1AC1340900BFEDA7 /* SearchCustomerKF.xml in Resources */,
+				CFDA06911AC1340900BFEDA7 /* Localizable.strings in Resources */,
+				CFDA06A91AC1340900BFEDA7 /* SearchCustomerMH.xml in Resources */,
+				CFDA06AC1AC1340900BFEDA7 /* ShopInfoMH.xml in Resources */,
+				CFDA06881AC1340900BFEDA7 /* buildinfo.plist in Resources */,
+				CFDA068B1AC1340900BFEDA7 /* config.xml in Resources */,
+				CFDA06A61AC1340900BFEDA7 /* GetSalesRecordsMH.xml in Resources */,
+				CFDA06B51AC1340900BFEDA7 /* RLConfigSetting.json in Resources */,
+				CFDA06AF1AC1340900BFEDA7 /* TerminalInfoDummyMH.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05BB1AC12AC200BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05D51AC12B1F00BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05DF1AC12B1F00BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05F91AC12BA600BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA069B1AC1340900BFEDA7 /* GetSalesRecordsKF.xml in Resources */,
+				CFDA06A41AC1340900BFEDA7 /* TerminalInfoDummyKF.xml in Resources */,
+				CFDA06981AC1340900BFEDA7 /* CustomerDummy.xml in Resources */,
+				CFDA06A11AC1340900BFEDA7 /* ShopInfoKF.xml in Resources */,
+				CFDA06951AC1340900BFEDA7 /* CheckoutDummy.xml in Resources */,
+				CFDA068F1AC1340900BFEDA7 /* termconfig.xml in Resources */,
+				CFDA06B91AC1340900BFEDA7 /* RLUserConfigSetting.json in Resources */,
+				CFDA06B31AC1340900BFEDA7 /* SalesDetailDummy.xml in Resources */,
+				CFDA069E1AC1340900BFEDA7 /* SearchCustomerKF.xml in Resources */,
+				CFDA06921AC1340900BFEDA7 /* Localizable.strings in Resources */,
+				CFDA06AA1AC1340900BFEDA7 /* SearchCustomerMH.xml in Resources */,
+				CFDA06AD1AC1340900BFEDA7 /* ShopInfoMH.xml in Resources */,
+				CFDA06891AC1340900BFEDA7 /* buildinfo.plist in Resources */,
+				CFDA068C1AC1340900BFEDA7 /* config.xml in Resources */,
+				CFDA06A71AC1340900BFEDA7 /* GetSalesRecordsMH.xml in Resources */,
+				CFDA06B61AC1340900BFEDA7 /* RLConfigSetting.json in Resources */,
+				CFDA06B01AC1340900BFEDA7 /* TerminalInfoDummyMH.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06031AC12BA600BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA062B1AC12D4600BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06351AC12D4600BFEDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDA052E1AC1260900BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF53E7B71AC3A5B900622EEB /* RLLoginViewController.swift in Sources */,
+				CF53E7C01AC3A5B900622EEB /* RLProductMenuView.swift in Sources */,
+				CF53E7C81AC3A5B900622EEB /* RLSetView.swift in Sources */,
+				CF53E7C31AC3A5B900622EEB /* RLMakerSetView.swift in Sources */,
+				CF53E7C41AC3A5B900622EEB /* RLSetConfigItems.swift in Sources */,
+				CF53E7B91AC3A5B900622EEB /* RLMainMenuController.swift in Sources */,
+				CFDA053D1AC1260900BFEDA7 /* ViewController.swift in Sources */,
+				CF53E7BB1AC3A5B900622EEB /* RLStatusToolBarController.swift in Sources */,
+				CF53E7BF1AC3A5B900622EEB /* RLTimeTable.swift in Sources */,
+				CFDA05381AC1260900BFEDA7 /* AppDelegate.swift in Sources */,
+				CF53E7C61AC3A5B900622EEB /* RLSetUpdateController.swift in Sources */,
+				CF53E7BD1AC3A5B900622EEB /* RLReservationController.swift in Sources */,
+				CF53E7BE1AC3A5B900622EEB /* RLTimeLineController.swift in Sources */,
+				CF53E7CA1AC3A5B900622EEB /* RLUserSetView.swift in Sources */,
+				CFDA053B1AC1260900BFEDA7 /* rlterm5.xcdatamodeld in Sources */,
+				CF53E7C21AC3A5B900622EEB /* RLConfigCellView.swift in Sources */,
+				CF53E7C11AC3A5B900622EEB /* RLSellController.swift in Sources */,
+				CF53E7B81AC3A5B900622EEB /* RLControllerManager.swift in Sources */,
+				CF53E7C91AC3A5B900622EEB /* RLSetViewController.swift in Sources */,
+				CF53E7C51AC3A5B900622EEB /* RLSetToolMenuView.swift in Sources */,
+				CF53E7BA1AC3A5B900622EEB /* RLNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05461AC1260900BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05511AC1260900BFEDA7 /* rlterm5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA055A1AC1267600BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA06261AC12CEF00BFEDA7 /* AEXML.swift in Sources */,
+				CFDA06271AC12CEF00BFEDA7 /* SWXMLHash.swift in Sources */,
+				CFDA05831AC127AE00BFEDA7 /* RLHttpClient.swift in Sources */,
+				CFDA05811AC1274800BFEDA7 /* Alamofire.swift in Sources */,
+				CFDA061B1AC12C5E00BFEDA7 /* RLHttpTask.swift in Sources */,
+				CFDA06231AC12CE100BFEDA7 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05651AC1267700BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05731AC1267700BFEDA7 /* RLNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA058A1AC12A8C00BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA065E1AC12DEB00BFEDA7 /* RLComponent.swift in Sources */,
+				CFDA06611AC12DEB00BFEDA7 /* RLXMLComponent.swift in Sources */,
+				CFDA065C1AC12DEB00BFEDA7 /* RLNode.swift in Sources */,
+				CFDA06601AC12DEB00BFEDA7 /* RLParseComponet.swift in Sources */,
+				CFDA065D1AC12DEB00BFEDA7 /* RLTerminalInfo.swift in Sources */,
+				CFDA066B1AC12E1100BFEDA7 /* RLReservationSystem.swift in Sources */,
+				CFDA06661AC12DEB00BFEDA7 /* RLPointSetting.swift in Sources */,
+				CFDA06621AC12DEB00BFEDA7 /* RLJSONComponent.swift in Sources */,
+				CFDA06681AC12DEB00BFEDA7 /* RLProductTree.swift in Sources */,
+				CFDA065F1AC12DEB00BFEDA7 /* RLParseContent.swift in Sources */,
+				CFDA06651AC12DEB00BFEDA7 /* RLCheckingStatus.swift in Sources */,
+				CFDA06641AC12DEB00BFEDA7 /* RLStaffList.swift in Sources */,
+				CFDA06671AC12DEB00BFEDA7 /* RLBookTicketList.swift in Sources */,
+				CFDA06631AC12DEB00BFEDA7 /* RLShopInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05951AC12A8C00BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05A31AC12A8D00BFEDA7 /* RLCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05AE1AC12AC200BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA061F1AC12C9600BFEDA7 /* RLUtilities.swift in Sources */,
+				CFDA06201AC12C9600BFEDA7 /* RLHUD.swift in Sources */,
+				CFDA06211AC12C9600BFEDA7 /* RLLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05B91AC12AC200BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05C71AC12AC200BFEDA7 /* RLUtilltiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05D21AC12B1F00BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05DD1AC12B1F00BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA05EB1AC12B1F00BFEDA7 /* RLUIComponentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA05F61AC12BA600BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA064D1AC12D9000BFEDA7 /* RLConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06011AC12BA600BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA060F1AC12BA600BFEDA7 /* RLConfigurationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06281AC12D4600BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA06331AC12D4600BFEDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA06411AC12D4700BFEDA7 /* RLDatabaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDA054C1AC1260900BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA054B1AC1260900BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA056C1AC1267700BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA055E1AC1267600BFEDA7 /* RLNetwork */;
+			targetProxy = CFDA056B1AC1267700BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA056E1AC1267700BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA056D1AC1267700BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05751AC1267700BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA055E1AC1267600BFEDA7 /* RLNetwork */;
+			targetProxy = CFDA05741AC1267700BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA059C1AC12A8C00BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA058E1AC12A8C00BFEDA7 /* RLCore */;
+			targetProxy = CFDA059B1AC12A8C00BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA059E1AC12A8D00BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA059D1AC12A8D00BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05A51AC12A8D00BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA058E1AC12A8C00BFEDA7 /* RLCore */;
+			targetProxy = CFDA05A41AC12A8D00BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05C01AC12AC200BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05B21AC12AC200BFEDA7 /* RLUtillties */;
+			targetProxy = CFDA05BF1AC12AC200BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05C21AC12AC200BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA05C11AC12AC200BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05C91AC12AC200BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05B21AC12AC200BFEDA7 /* RLUtillties */;
+			targetProxy = CFDA05C81AC12AC200BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05E41AC12B1F00BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05D61AC12B1F00BFEDA7 /* RLUIComponent */;
+			targetProxy = CFDA05E31AC12B1F00BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05E61AC12B1F00BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA05E51AC12B1F00BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA05ED1AC12B1F00BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05D61AC12B1F00BFEDA7 /* RLUIComponent */;
+			targetProxy = CFDA05EC1AC12B1F00BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA06081AC12BA600BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05FA1AC12BA600BFEDA7 /* RLConfiguration */;
+			targetProxy = CFDA06071AC12BA600BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA060A1AC12BA600BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA06091AC12BA600BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA06111AC12BA600BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05FA1AC12BA600BFEDA7 /* RLConfiguration */;
+			targetProxy = CFDA06101AC12BA600BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA063A1AC12D4600BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA062C1AC12D4600BFEDA7 /* RLDatabase */;
+			targetProxy = CFDA06391AC12D4600BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA063C1AC12D4600BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA05311AC1260900BFEDA7 /* rlterm5 */;
+			targetProxy = CFDA063B1AC12D4600BFEDA7 /* PBXContainerItemProxy */;
+		};
+		CFDA06431AC12D4700BFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA062C1AC12D4600BFEDA7 /* RLDatabase */;
+			targetProxy = CFDA06421AC12D4700BFEDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFDA053E1AC1260900BFEDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDA053F1AC1260900BFEDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFDA05431AC1260900BFEDA7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDA05441AC1260900BFEDA7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CFDA06731AC1340900BFEDA7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDA06741AC1340900BFEDA7 /* Base */,
+				CFDA06751AC1340900BFEDA7 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFDA05521AC1260900BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFDA05531AC1260900BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDA05551AC1260900BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rlterm5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFDA05561AC1260900BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rlterm5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFDA05581AC1260900BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rlterm5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA05591AC1260900BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rlterm5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+		CFDA05791AC1267700BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA057A1AC1267700BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RLNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA057D1AC1267700BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA057E1AC1267700BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+		CFDA05A91AC12A8D00BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA05AA1AC12A8D00BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RLCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA05AC1AC12A8D00BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA05AD1AC12A8D00BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+		CFDA05CD1AC12AC200BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLUtillties/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA05CE1AC12AC200BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RLUtillties/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA05D01AC12AC200BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLUtilltiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA05D11AC12AC200BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLUtilltiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+		CFDA05F11AC12B2000BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLUIComponent/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA05F21AC12B2000BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RLUIComponent/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA05F41AC12B2000BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLUIComponentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA05F51AC12B2000BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLUIComponentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+		CFDA06151AC12BA700BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLConfiguration/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA06161AC12BA700BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RLConfiguration/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA06181AC12BA700BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLConfigurationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA06191AC12BA700BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLConfigurationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+		CFDA06471AC12D4700BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLDatabase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDA06481AC12D4700BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RLDatabase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFDA064A1AC12D4700BFEDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLDatabaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Debug;
+		};
+		CFDA064B1AC12D4700BFEDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLDatabaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rlterm5.app/rlterm5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDA052D1AC1260900BFEDA7 /* Build configuration list for PBXProject "rlterm5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05521AC1260900BFEDA7 /* Debug */,
+				CFDA05531AC1260900BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05541AC1260900BFEDA7 /* Build configuration list for PBXNativeTarget "rlterm5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05551AC1260900BFEDA7 /* Debug */,
+				CFDA05561AC1260900BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05571AC1260900BFEDA7 /* Build configuration list for PBXNativeTarget "rlterm5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05581AC1260900BFEDA7 /* Debug */,
+				CFDA05591AC1260900BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05781AC1267700BFEDA7 /* Build configuration list for PBXNativeTarget "RLNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05791AC1267700BFEDA7 /* Debug */,
+				CFDA057A1AC1267700BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA057C1AC1267700BFEDA7 /* Build configuration list for PBXNativeTarget "RLNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA057D1AC1267700BFEDA7 /* Debug */,
+				CFDA057E1AC1267700BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05A81AC12A8D00BFEDA7 /* Build configuration list for PBXNativeTarget "RLCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05A91AC12A8D00BFEDA7 /* Debug */,
+				CFDA05AA1AC12A8D00BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05AB1AC12A8D00BFEDA7 /* Build configuration list for PBXNativeTarget "RLCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05AC1AC12A8D00BFEDA7 /* Debug */,
+				CFDA05AD1AC12A8D00BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05CC1AC12AC200BFEDA7 /* Build configuration list for PBXNativeTarget "RLUtillties" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05CD1AC12AC200BFEDA7 /* Debug */,
+				CFDA05CE1AC12AC200BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05CF1AC12AC200BFEDA7 /* Build configuration list for PBXNativeTarget "RLUtilltiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05D01AC12AC200BFEDA7 /* Debug */,
+				CFDA05D11AC12AC200BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05F01AC12B2000BFEDA7 /* Build configuration list for PBXNativeTarget "RLUIComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05F11AC12B2000BFEDA7 /* Debug */,
+				CFDA05F21AC12B2000BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA05F31AC12B2000BFEDA7 /* Build configuration list for PBXNativeTarget "RLUIComponentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA05F41AC12B2000BFEDA7 /* Debug */,
+				CFDA05F51AC12B2000BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA06141AC12BA700BFEDA7 /* Build configuration list for PBXNativeTarget "RLConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA06151AC12BA700BFEDA7 /* Debug */,
+				CFDA06161AC12BA700BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA06171AC12BA700BFEDA7 /* Build configuration list for PBXNativeTarget "RLConfigurationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA06181AC12BA700BFEDA7 /* Debug */,
+				CFDA06191AC12BA700BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA06461AC12D4700BFEDA7 /* Build configuration list for PBXNativeTarget "RLDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA06471AC12D4700BFEDA7 /* Debug */,
+				CFDA06481AC12D4700BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA06491AC12D4700BFEDA7 /* Build configuration list for PBXNativeTarget "RLDatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA064A1AC12D4700BFEDA7 /* Debug */,
+				CFDA064B1AC12D4700BFEDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFDA05391AC1260900BFEDA7 /* rlterm5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFDA053A1AC1260900BFEDA7 /* rlterm5.xcdatamodel */,
+			);
+			currentVersion = CFDA053A1AC1260900BFEDA7 /* rlterm5.xcdatamodel */;
+			path = rlterm5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFDA052A1AC1260900BFEDA7 /* Project object */;
+}

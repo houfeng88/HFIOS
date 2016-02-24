@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7525" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IpH-aD-yFM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7516"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="zsd-Pa-Sef">
+            <objects>
+                <viewController storyboardIdentifier="RLoginViewController" id="tNk-1N-Vua" customClass="RLLoginViewController" customModule="rlterm5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="irn-fd-9Yo"/>
+                        <viewControllerLayoutGuide type="bottom" id="rhn-g0-V1X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uP4-WT-B3C">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="A89-7C-8xd">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_inputbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="tKG-50-XFk">
+                                <rect key="frame" x="235" y="354" width="337" height="40"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wu9-Gq-1xE">
+                                <rect key="frame" x="235" y="359" width="337" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMY-3P-iq8">
+                                <rect key="frame" x="593" y="352" width="139" height="44"/>
+                                <state key="normal" image="login_online_btn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onlineLogin:" destination="tNk-1N-Vua" eventType="touchUpInside" id="DV7-ka-fAh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6N-5b-tS0">
+                                <rect key="frame" x="740" y="352" width="139" height="44"/>
+                                <state key="normal" image="login_offline_btn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="demoModelLogin:" destination="tNk-1N-Vua" eventType="touchUpInside" id="toh-uP-lBX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="bgView" destination="A89-7C-8xd" id="Vxv-6e-PHP"/>
+                        <outlet property="loginTextField" destination="Wu9-Gq-1xE" id="JIF-lk-mWX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y3D-Rp-HdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1181" y="335"/>
+        </scene>
+        <!--Main Menu Controller-->
+        <scene sceneID="pzc-qO-zru">
+            <objects>
+                <viewController id="wmE-5D-rdL" customClass="RLMainMenuController" customModule="rlterm5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UAs-dV-yR5"/>
+                        <viewControllerLayoutGuide type="bottom" id="PrO-oV-jWp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NRI-Jw-otS">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="firstmenu_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="EBL-y6-Lkb">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eLv-EZ-5rG">
+                                <rect key="frame" x="46" y="0.0" width="382" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shop1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVo-h0-Whb">
+                                <rect key="frame" x="609" y="7" width="383" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.25882352941176473" green="0.59215686274509804" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No.10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkR-FM-yOu">
+                                <rect key="frame" x="725" y="38" width="267" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.31372549019607843" green="0.6588235294117647" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rl_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rk1-mO-qxJ">
+                                <rect key="frame" x="62" y="128" width="595" height="140"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N54-mZ-eT5"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="bgView" destination="EBL-y6-Lkb" id="ktv-rY-6BC"/>
+                        <outlet property="factoryLabel" destination="eLv-EZ-5rG" id="fgP-yu-66b"/>
+                        <outlet property="logoView" destination="Rk1-mO-qxJ" id="KjG-Qf-fEw"/>
+                        <outlet property="shopLabel" destination="oVo-h0-Whb" id="1It-mv-qE9"/>
+                        <outlet property="shopNoLabel" destination="wkR-FM-yOu" id="6jf-Rn-61e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdu-lB-gcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="1253"/>
+        </scene>
+        <!--Set View Controller-->
+        <scene sceneID="gDM-25-VDa">
+            <objects>
+                <viewController storyboardIdentifier="RLSetViewController" id="J1O-Z9-QSf" customClass="RLSetViewController" customModule="rlterm5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LVv-1V-r9x"/>
+                        <viewControllerLayoutGuide type="bottom" id="IX0-mr-1tK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C0c-Z2-xbT">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tool_toolbarbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="24B-8X-dGI">
+                                <rect key="frame" x="0.0" y="32" width="176" height="728"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="toolBgView" destination="24B-8X-dGI" id="LnS-nW-unk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="km9-aD-NQi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2289" y="328"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rKe-5B-gah">
+            <objects>
+                <navigationController storyboardIdentifier="RLControllerManager" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="IpH-aD-yFM" customClass="RLNavigationController" customModule="rlterm5" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ov6-0i-NGc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wmE-5D-rdL" kind="relationship" relationship="rootViewController" id="76B-eC-8nx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTb-Vz-mGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="39" y="1286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1d5-yr-FRK">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="XbY-C2-A1a" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xxi-kx-Hn5"/>
+                        <viewControllerLayoutGuide type="bottom" id="KLQ-1g-j99"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1cl-ba-pA0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cew-qB-SnC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="firstmenu_bg.png" width="1024" height="768"/>
+        <image name="login_bg.png" width="1024" height="750"/>
+        <image name="login_inputbox.png" width="337" height="40"/>
+        <image name="login_offline_btn.png" width="134" height="43"/>
+        <image name="login_online_btn.png" width="131" height="44"/>
+        <image name="rl_logo.png" width="595" height="140"/>
+        <image name="tool_toolbarbg.png" width="177" height="712"/>
+    </resources>
+</document>

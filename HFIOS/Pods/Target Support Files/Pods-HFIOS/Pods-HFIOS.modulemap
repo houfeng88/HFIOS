@@ -1,0 +1,6 @@
+framework module Pods_HFIOS {
+  umbrella header "Pods-HFIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

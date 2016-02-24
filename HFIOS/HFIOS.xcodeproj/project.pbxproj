@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADAB04F46F25702D9E05EA8 /* Pods_HFIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC6E3D3C5FF592F3DC2F37 /* Pods_HFIOS.framework */; };
+		52F81A051C5B523D005A7FCC /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F81A041C5B523D005A7FCC /* CaculatorMaker.m */; };
+		52F81A081C5B5565005A7FCC /* HFCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F81A071C5B5565005A7FCC /* HFCaculator.m */; };
+		CFEE82BC1C435785007764BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82BB1C435785007764BB /* AppDelegate.swift */; };
+		CFEE82BE1C435785007764BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82BD1C435785007764BB /* ViewController.swift */; };
+		CFEE82C11C435785007764BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEE82BF1C435785007764BB /* Main.storyboard */; };
+		CFEE82C31C435785007764BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEE82C21C435785007764BB /* Assets.xcassets */; };
+		CFEE82C61C435785007764BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEE82C41C435785007764BB /* LaunchScreen.storyboard */; };
+		CFEE82D11C435785007764BB /* HFIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82D01C435785007764BB /* HFIOSTests.swift */; };
+		CFEE82DC1C435785007764BB /* HFIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82DB1C435785007764BB /* HFIOSUITests.swift */; };
+		CFEE82EB1C435AE4007764BB /* HFUserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82EA1C435AE4007764BB /* HFUserNotification.swift */; };
+		CFEE82EF1C437C35007764BB /* HFMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE82EE1C437C35007764BB /* HFMenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEE82CD1C435785007764BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEE82B01C435785007764BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEE82B71C435785007764BB;
+			remoteInfo = HFIOS;
+		};
+		CFEE82D81C435785007764BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEE82B01C435785007764BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEE82B71C435785007764BB;
+			remoteInfo = HFIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52F819FF1C5B51C0005A7FCC /* HFIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HFIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		52F81A031C5B523D005A7FCC /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		52F81A041C5B523D005A7FCC /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		52F81A061C5B5565005A7FCC /* HFCaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFCaculator.h; sourceTree = "<group>"; };
+		52F81A071C5B5565005A7FCC /* HFCaculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFCaculator.m; sourceTree = "<group>"; };
+		5734A39032F97570F2C850A0 /* Pods-HFIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFIOS/Pods-HFIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CFEE82B81C435785007764BB /* HFIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE82BB1C435785007764BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFEE82BD1C435785007764BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFEE82C01C435785007764BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEE82C21C435785007764BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEE82C51C435785007764BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFEE82C71C435785007764BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEE82CC1C435785007764BB /* HFIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE82D01C435785007764BB /* HFIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFIOSTests.swift; sourceTree = "<group>"; };
+		CFEE82D21C435785007764BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEE82D71C435785007764BB /* HFIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE82DB1C435785007764BB /* HFIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFIOSUITests.swift; sourceTree = "<group>"; };
+		CFEE82DD1C435785007764BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEE82EA1C435AE4007764BB /* HFUserNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFUserNotification.swift; sourceTree = "<group>"; };
+		CFEE82EE1C437C35007764BB /* HFMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMenuController.swift; sourceTree = "<group>"; };
+		D040BDF4A26EA2DE9CD5DAEC /* Pods-HFIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFIOS/Pods-HFIOS.release.xcconfig"; sourceTree = "<group>"; };
+		EFEC6E3D3C5FF592F3DC2F37 /* Pods_HFIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEE82B51C435785007764BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAB04F46F25702D9E05EA8 /* Pods_HFIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE82C91C435785007764BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE82D41C435785007764BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F819EA1C5AFF16005A7FCC /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		52F819FE1C5B5196005A7FCC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				52F819FF1C5B51C0005A7FCC /* HFIOS-Bridging-Header.h */,
+				52F81A031C5B523D005A7FCC /* CaculatorMaker.h */,
+				52F81A041C5B523D005A7FCC /* CaculatorMaker.m */,
+				52F81A061C5B5565005A7FCC /* HFCaculator.h */,
+				52F81A071C5B5565005A7FCC /* HFCaculator.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		57A3D642EEB7206A82665264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC6E3D3C5FF592F3DC2F37 /* Pods_HFIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2122B56AEAADF0BFCF93C22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5734A39032F97570F2C850A0 /* Pods-HFIOS.debug.xcconfig */,
+				D040BDF4A26EA2DE9CD5DAEC /* Pods-HFIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFEE82AF1C435785007764BB = {
+			isa = PBXGroup;
+			children = (
+				CFEE82BA1C435785007764BB /* HFIOS */,
+				CFEE82CF1C435785007764BB /* HFIOSTests */,
+				CFEE82DA1C435785007764BB /* HFIOSUITests */,
+				CFEE82B91C435785007764BB /* Products */,
+				C2122B56AEAADF0BFCF93C22 /* Pods */,
+				57A3D642EEB7206A82665264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEE82B91C435785007764BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE82B81C435785007764BB /* HFIOS.app */,
+				CFEE82CC1C435785007764BB /* HFIOSTests.xctest */,
+				CFEE82D71C435785007764BB /* HFIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEE82BA1C435785007764BB /* HFIOS */ = {
+			isa = PBXGroup;
+			children = (
+				52F819FE1C5B5196005A7FCC /* Test */,
+				52F819EA1C5AFF16005A7FCC /* ReactiveCocoa */,
+				CFEE82EC1C437C02007764BB /* UI */,
+				CFEE82E91C435ABE007764BB /* Notifications */,
+				CFEE82BB1C435785007764BB /* AppDelegate.swift */,
+				CFEE82BD1C435785007764BB /* ViewController.swift */,
+				CFEE82BF1C435785007764BB /* Main.storyboard */,
+				CFEE82C21C435785007764BB /* Assets.xcassets */,
+				CFEE82C41C435785007764BB /* LaunchScreen.storyboard */,
+				CFEE82C71C435785007764BB /* Info.plist */,
+			);
+			path = HFIOS;
+			sourceTree = "<group>";
+		};
+		CFEE82CF1C435785007764BB /* HFIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE82D01C435785007764BB /* HFIOSTests.swift */,
+				CFEE82D21C435785007764BB /* Info.plist */,
+			);
+			path = HFIOSTests;
+			sourceTree = "<group>";
+		};
+		CFEE82DA1C435785007764BB /* HFIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE82DB1C435785007764BB /* HFIOSUITests.swift */,
+				CFEE82DD1C435785007764BB /* Info.plist */,
+			);
+			path = HFIOSUITests;
+			sourceTree = "<group>";
+		};
+		CFEE82E91C435ABE007764BB /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE82EA1C435AE4007764BB /* HFUserNotification.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		CFEE82EC1C437C02007764BB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE82ED1C437C1C007764BB /* UIMenuController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CFEE82ED1C437C1C007764BB /* UIMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE82EE1C437C35007764BB /* HFMenuController.swift */,
+			);
+			path = UIMenuController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEE82B71C435785007764BB /* HFIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEE82E01C435785007764BB /* Build configuration list for PBXNativeTarget "HFIOS" */;
+			buildPhases = (
+				B910BBF5F5C6B5A9F1B82A69 /* Check Pods Manifest.lock */,
+				CFEE82B41C435785007764BB /* Sources */,
+				CFEE82B51C435785007764BB /* Frameworks */,
+				CFEE82B61C435785007764BB /* Resources */,
+				2B5DE8FFF29E512A40996E15 /* Embed Pods Frameworks */,
+				CEA418541BF8C257D80065D1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFIOS;
+			productName = HFIOS;
+			productReference = CFEE82B81C435785007764BB /* HFIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEE82CB1C435785007764BB /* HFIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEE82E31C435785007764BB /* Build configuration list for PBXNativeTarget "HFIOSTests" */;
+			buildPhases = (
+				CFEE82C81C435785007764BB /* Sources */,
+				CFEE82C91C435785007764BB /* Frameworks */,
+				CFEE82CA1C435785007764BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEE82CE1C435785007764BB /* PBXTargetDependency */,
+			);
+			name = HFIOSTests;
+			productName = HFIOSTests;
+			productReference = CFEE82CC1C435785007764BB /* HFIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEE82D61C435785007764BB /* HFIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEE82E61C435785007764BB /* Build configuration list for PBXNativeTarget "HFIOSUITests" */;
+			buildPhases = (
+				CFEE82D31C435785007764BB /* Sources */,
+				CFEE82D41C435785007764BB /* Frameworks */,
+				CFEE82D51C435785007764BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEE82D91C435785007764BB /* PBXTargetDependency */,
+			);
+			name = HFIOSUITests;
+			productName = HFIOSUITests;
+			productReference = CFEE82D71C435785007764BB /* HFIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEE82B01C435785007764BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = houfeng;
+				TargetAttributes = {
+					CFEE82B71C435785007764BB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CFEE82CB1C435785007764BB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CFEE82B71C435785007764BB;
+					};
+					CFEE82D61C435785007764BB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CFEE82B71C435785007764BB;
+					};
+				};
+			};
+			buildConfigurationList = CFEE82B31C435785007764BB /* Build configuration list for PBXProject "HFIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEE82AF1C435785007764BB;
+			productRefGroup = CFEE82B91C435785007764BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEE82B71C435785007764BB /* HFIOS */,
+				CFEE82CB1C435785007764BB /* HFIOSTests */,
+				CFEE82D61C435785007764BB /* HFIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEE82B61C435785007764BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE82C61C435785007764BB /* LaunchScreen.storyboard in Resources */,
+				CFEE82C31C435785007764BB /* Assets.xcassets in Resources */,
+				CFEE82C11C435785007764BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE82CA1C435785007764BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE82D51C435785007764BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B5DE8FFF29E512A40996E15 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HFIOS/Pods-HFIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B910BBF5F5C6B5A9F1B82A69 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA418541BF8C257D80065D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HFIOS/Pods-HFIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEE82B41C435785007764BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE82EF1C437C35007764BB /* HFMenuController.swift in Sources */,
+				52F81A051C5B523D005A7FCC /* CaculatorMaker.m in Sources */,
+				CFEE82BE1C435785007764BB /* ViewController.swift in Sources */,
+				CFEE82EB1C435AE4007764BB /* HFUserNotification.swift in Sources */,
+				52F81A081C5B5565005A7FCC /* HFCaculator.m in Sources */,
+				CFEE82BC1C435785007764BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE82C81C435785007764BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE82D11C435785007764BB /* HFIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEE82D31C435785007764BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE82DC1C435785007764BB /* HFIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEE82CE1C435785007764BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEE82B71C435785007764BB /* HFIOS */;
+			targetProxy = CFEE82CD1C435785007764BB /* PBXContainerItemProxy */;
+		};
+		CFEE82D91C435785007764BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEE82B71C435785007764BB /* HFIOS */;
+			targetProxy = CFEE82D81C435785007764BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEE82BF1C435785007764BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEE82C01C435785007764BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEE82C41C435785007764BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEE82C51C435785007764BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEE82DE1C435785007764BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEE82DF1C435785007764BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEE82E11C435785007764BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5734A39032F97570F2C850A0 /* Pods-HFIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HFIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = houfeng.HFIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HFIOS/Test/HFIOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFEE82E21C435785007764BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D040BDF4A26EA2DE9CD5DAEC /* Pods-HFIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HFIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = houfeng.HFIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HFIOS/Test/HFIOS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CFEE82E41C435785007764BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HFIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = houfeng.HFIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFIOS.app/HFIOS";
+			};
+			name = Debug;
+		};
+		CFEE82E51C435785007764BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HFIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = houfeng.HFIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFIOS.app/HFIOS";
+			};
+			name = Release;
+		};
+		CFEE82E71C435785007764BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HFIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = houfeng.HFIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HFIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFEE82E81C435785007764BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HFIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = houfeng.HFIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HFIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEE82B31C435785007764BB /* Build configuration list for PBXProject "HFIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE82DE1C435785007764BB /* Debug */,
+				CFEE82DF1C435785007764BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEE82E01C435785007764BB /* Build configuration list for PBXNativeTarget "HFIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE82E11C435785007764BB /* Debug */,
+				CFEE82E21C435785007764BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEE82E31C435785007764BB /* Build configuration list for PBXNativeTarget "HFIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE82E41C435785007764BB /* Debug */,
+				CFEE82E51C435785007764BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEE82E61C435785007764BB /* Build configuration list for PBXNativeTarget "HFIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEE82E71C435785007764BB /* Debug */,
+				CFEE82E81C435785007764BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEE82B01C435785007764BB /* Project object */;
+}

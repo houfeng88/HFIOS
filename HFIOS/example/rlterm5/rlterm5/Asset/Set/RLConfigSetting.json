@@ -1,0 +1,474 @@
+{
+    "comment": "配置设定界面;groupname为tableview分组的title;itemname为tableviewcell的title;itemkey为要设置的xml字段;itemtype为设置的类型,取值可以为textfield,switch,segment;itemfrom表示改字段是从哪个xml文件得到，取值可以为config,termconfig (不填默认为config);itemregtype 表示改字段类型,取值可以为ip(ip地址) ,int ,float 默认为字符串不需要填写",
+    "groups": [{
+               "groupname": "システム設定",
+               "items": [
+                         {
+                         "itemname": "プリンタ利用",
+                         "itemkey": "system.use_printer",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "通信利用",
+                         "itemkey": "system.use_rlcomm",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "予約利用",
+                         "itemkey": "system.use_reservation",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "カルテ利用",
+                         "itemkey": "system.use_casehistory",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "アンケート利用",
+                         "itemkey": "system.use_customer_survey",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "他社顧客情報参照可",
+                         "itemkey": "system.check_othershop_customer",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "売掛金入力利用",
+                         "itemkey": "system.use_receivable_input",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "業種",
+                         "itemkey": "system.business_type",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "美容",
+                                          "value": "beauty"
+                                          },
+                                          {
+                                          "name": "整体",
+                                          "value": "bone_setter"
+                                          },
+                                          {
+                                          "name": "ネイル",
+                                          "value": "nail"
+                                          }
+                                          ]
+                         }
+
+                         ]
+               },
+               {
+               "groupname": "端末個別設定",
+               "items": [
+                         {
+                         "itemname": "initkey",
+                         "itemkey": "initkey",
+                         "itemtype": "switch",
+                         "itemfrom": "termconfig"
+                         },
+                         {
+                         "itemname": "rlty4_id",
+                         "itemkey": "rlty4_id",
+                         "itemtype": "textfield",
+                         "itemfrom": "termconfig"
+                         },
+                         {
+                         "itemname": "access_key",
+                         "itemkey": "access_key",
+                         "itemtype": "textfield",
+                         "itemfrom": "termconfig"
+                         }
+                        ]
+               },
+               {
+               "groupname": "通信設定",
+               "items": [
+                         {
+                         "itemname": "サーバ",
+                         "itemkey": "rl_comm.server",
+                         "itemtype": "textfield",
+                         "itemregtype":"ip"
+                         },
+                         {
+                         "itemname": "アプリ名",
+                         "itemkey": "rl_comm.app_name",
+                         "itemtype": "textfield",
+                         },
+                         {
+                         "itemname": "iPOSダウンロードURL",
+                         "itemkey": "rl_comm.ipos_url",
+                         "itemtype": "textfield",
+                         },
+                         {
+                         "itemname": "端末認証",
+                         "itemkey": "rl_comm.client_certificate",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "アプリ設定",
+               "items": [
+                         {
+                         "itemname": "新顧客検索利用",
+                         "itemkey": "app.use_customer_search",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "メーカーパスワード",
+                         "itemkey": "app.maker_password",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "トップページロゴ",
+                         "itemkey": "app.logo_image_name",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "売上設定",
+               "items": [
+                         {
+                         "itemname": "施術券頭8桁表示",
+                         "itemkey": "app.sales.is_show_ticketnumheadhub",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "販売担当者入力利用",
+                         "itemkey": "app.sales.input_sale_staff",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "payway",
+               "items": [
+                         {
+                         "itemname": "cash",
+                         "itemkey": "pay_way.cash",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "credit",
+                         "itemkey": "pay_way.credit",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "eMoney",
+                         "itemkey": "pay_way.eMoney",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "otherGiftCardPrice",
+                         "itemkey": "pay_way.otherGiftCardPrice",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "receivableMoney",
+                         "itemkey": "pay_way.receivableMoney",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "dvGiftCardPrice",
+                         "itemkey": "pay_way.dvGiftCardPrice",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "chargepay",
+                         "itemkey": "pay_way.chargepay",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "pointpay",
+                         "itemkey": "pay_way.pointpay",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "顧客管理設定",
+               "items": [
+                         {
+                         "itemname": "テストメール送信",
+                         "itemkey": "app.customer_mng.is_send_testmail",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "予約設定",
+               "items": [
+                         {
+                         "itemname": "予約スキル利用",
+                         "itemkey": "app.reservation.use_skill",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "印刷設定",
+               "items": [
+                         {
+                         "itemname": "IPアドレス",
+                         "itemkey": "printer.ipaddress",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "ポート",
+                         "itemkey": "printer.port",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "プリンタ用紙サイズ",
+                         "itemkey": "printer.paper_width",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "80mm",
+                                          "value": "80"
+                                          },
+                                          {
+                                          "name": "58mm",
+                                          "value": "58"
+                                          }
+                                          ]
+                         },
+                         {
+                         "itemname": "カットタイプ",
+                         "itemkey": "printer.cut",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "フルカット",
+                                          "value": "full"
+                                          },
+                                          {
+                                          "name": "部分カット",
+                                          "value": "partial"
+                                          }
+                                          ]
+                         },
+                         {
+                         "itemname": "状態確認",
+                         "itemkey": "printer.check_status",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                         ]
+               },
+               {
+               "groupname": "磁気カードリーダ設定",
+               "items": [
+                         {
+                         "itemname": "磁気カード番号開始桁",
+                         "itemkey": "swipecard.location",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "カード番号桁数",
+                         "itemkey": "swipecard.length",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "auto_scan_card",
+                         "itemkey": "swipecard.auto_scan_card",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "自動トップメニュー戻り",
+                         "itemkey": "swipecard.auto_back_topmenu",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "自動トップメニュー戻りタイムアウト時間",
+                         "itemkey": "swipecard.auto_back_topmenu_timeout",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "磁気カード自動クローズ",
+                         "itemkey": "swipecard.use_auto_shutdown_swipecard",
+                         "itemtype": "switch",
+                         "itemfrom": "config"
+                         }
+                        ]
+               },
+               {
+               "groupname": "入力制限",
+               "items": [
+                         {
+                         "itemname": "input_limit.charge",
+                         "itemkey": "input_limit.charge",
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         },
+                         {
+                         "itemname": "input_limit.point",
+                         "itemkey": "input_limit.point",
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         },
+                         {
+                         "itemname": "input_limit.cash",
+                         "itemkey": "input_limit.cash",
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         },
+                         {
+                         "itemname": "input_limit.credit",
+                         "itemkey": "input_limit.credit",
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         }, 
+                         {
+                         "itemname": "input_limit.dv_ticket", 
+                         "itemkey": "input_limit.dv_ticket", 
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         }, 
+                         {
+                         "itemname": "input_limit.other_ticket", 
+                         "itemkey": "input_limit.other_ticket", 
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         }, 
+                         {
+                         "itemname": "input_limit.emoney", 
+                         "itemkey": "input_limit.emoney", 
+                         "itemtype": "textfield",
+                         "itemregtype":"int"
+                         }, 
+                         {
+                         "itemname": "input_limit.receivable_money", 
+                         "itemkey": "input_limit.receivable_money", 
+                         "itemtype": "textfield", 
+                         "itemregtype": "int"
+                         }
+                         ]
+               },
+               {
+               "groupname": "端数処理設定",
+               "items": [
+                         {
+                         "itemname": "商品金額",
+                         "itemkey": "round_setting.master_product",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "四捨五入",
+                                          "value": "halfAjust"
+                                          },
+                                          {
+                                          "name": "切上",
+                                          "value": "roundUp"
+                                          },
+                                          {
+                                          "name": "切捨",
+                                          "value": "roundDown"
+                                          },
+                                          {
+                                          "name": "税金込",
+                                          "value": "withTax"
+                                          }
+                                          ]
+                         },
+                         {
+                         "itemname": "割引",
+                         "itemkey": "round_setting.discount",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "四捨五入",
+                                          "value": "halfAjust"
+                                          },
+                                          {
+                                          "name": "切上",
+                                          "value": "roundUp"
+                                          },
+                                          {
+                                          "name": "切捨",
+                                          "value": "roundDown"
+                                          }
+                                          ]
+                         },
+                         {
+                         "itemname": "消費税",
+                         "itemkey": "round_setting.tax",
+                         "itemtype": "segment",
+                         "segmentitems": [
+                                          {
+                                          "name": "四捨五入",
+                                          "value": "halfAjust"
+                                          },
+                                          {
+                                          "name": "切上",
+                                          "value": "roundUp"
+                                          },
+                                          {
+                                          "name": "切捨",
+                                          "value": "roundDown"
+                                          }
+                                          ]
+                         }
+
+                         ]
+               },
+               {
+               "groupname": "通信アクション",
+               "items": [
+                         {
+                         "itemname": "店員別未入力アンケート",
+                         "itemkey": "rl_comm.action_path.input_survey_list",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "利用可能なアンケート",
+                         "itemkey": "rl_comm.action_path.usable_survery_list",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         },
+                         {
+                         "itemname": "アンケート回答済み",
+                         "itemkey": "rl_comm.action_path.answered_survey_list",
+                         "itemtype": "textfield",
+                         "itemfrom": "config"
+                         }
+                         ]
+               }
+              
+               ]
+}

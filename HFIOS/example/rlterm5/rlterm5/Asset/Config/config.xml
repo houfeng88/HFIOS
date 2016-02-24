@@ -1,0 +1,331 @@
+<config>
+    <!-- ■システム設定 -->
+	<system>
+		<!-- プリンタ利用 -->
+		<use_printer>true</use_printer>
+		<!-- 通信利用 -->
+		<use_rlcomm>true</use_rlcomm>
+		<!-- 予約利用 -->
+		<use_reservation>true</use_reservation>
+		<!-- カルテ利用 -->
+		<use_casehistory>true</use_casehistory>
+		<!-- アンケート利用 -->
+		<use_customer_survey>true</use_customer_survey>
+		<!-- 他社顧客情報参照可 -->
+		<check_othershop_customer>false</check_othershop_customer>
+		<!-- 売掛金入力利用 -->
+		<use_receivable_input>false</use_receivable_input>
+		<!-- 業種 -->
+		<!-- 　beauty:美容 -->
+		<!-- 　bone_setter:整体 -->		
+		<!-- 　nail:ネイル -->		
+		<business_type>beauty</business_type>
+	</system>
+	
+    <!-- ■アプリ設定 -->
+    <app>
+		<!-- 新顧客検索利用 -->
+		<use_customer_search>true</use_customer_search>
+		<!-- 本部POSパスワード -->
+		<super_shop_pwd>aaa</super_shop_pwd>
+		<!-- メーカーパスワード -->	
+        <maker_password>RL8899</maker_password>
+		<!-- トップページロゴ -->
+		<!-- 　mh_logo:MH用 -->
+		<!-- 　kara_logo:KF用 -->
+		<!-- 　rl_logo:一般用 -->
+        <logo_image_name>mh_logo</logo_image_name>
+		
+		<!-- □売上設定 -->
+		<sales>
+			<!-- 施術券頭8桁表示 -->
+			<is_show_ticketnumheadhub>true</is_show_ticketnumheadhub>
+			<!-- 指定カテゴリ販売商品コード -->	
+			<customized_product>6029999999</customized_product>
+			<!-- 回数券返品利用 -->	
+			<timesticket_refound>true</timesticket_refound>
+			<!-- 販売担当者入力利用 -->	
+			<input_sale_staff>true</input_sale_staff>
+			<!-- 商品並び方 -->
+			<!-- 　list：リスト -->
+			<!-- 　directory:ディレクトリー -->
+			<product_select>list</product_select>
+			<!-- 会員カード無しアラート-->
+			<empty_card_alert>true</empty_card_alert>
+		</sales>
+
+		
+		<!-- □売上管理設定 -->
+		<sales_mng>
+			<!-- 予約スキル利用 -->
+		</sales_mng>
+		
+		<!-- □顧客管理設定 -->
+		<customer_mng>
+			<!-- テストメール送信 -->
+			<is_send_testmail>true</is_send_testmail>
+		</customer_mng>
+
+		<!-- □カルテ設定 -->
+		<case_history>
+		</case_history>
+
+		<!-- □予約設定 -->
+		<reservation>
+			<!-- 予約スキル利用 -->
+			<use_skill>false</use_skill>
+		</reservation>		
+    </app>
+	
+	
+    <!-- ■印刷設定 -->
+    <printer>
+		<!-- IPアドレス -->	
+        <ipaddress>192.168.1.199</ipaddress>
+		<!-- ポート -->	
+        <port>9100</port>
+		<!-- 用紙サイズ -->	
+		<!--  80：80mm　-->	
+		<!--  50：50mm　-->	
+        <paper_width>80</paper_width>
+		<!-- カットタイプ -->	
+		<!-- 　full：フルカット -->	
+		<!-- 　partial：部分カット -->	
+        <cut>full</cut>
+		<!-- 売上レシート自動印刷 -->	
+        <sales_autoprinting>true</sales_autoprinting>
+		<!-- 締めレシート自動印刷 -->	
+        <sale_mng_autoprinting>true</sale_mng_autoprinting>
+		<!-- 状態確認 -->	
+        <check_status>true</check_status>
+		<!-- 精算レシート（控え）印刷 -->	
+        <finalPrintStatisticsTwice>true</finalPrintStatisticsTwice>
+		<!-- ポイント情報印刷 -->	
+        <point_printing>true</point_printing>
+		<!-- 販売担当者印刷 -->	
+        <salestaff_printing>true</salestaff_printing>
+		<!-- WEB予約用QRコード印刷 -->	
+        <print_QR>true</print_QR>
+		<!-- 回数券の有効期限印刷 -->	
+        <print_timesticket_time>true</print_timesticket_time>
+    </printer>
+    
+    <!-- ■磁気カードリーダ設定 -->
+    <swipecard>
+		<!-- 磁気カード番号開始桁 -->	
+        <location>10</location>
+		<!-- カード番号桁数 -->	
+        <length>16</length>
+		<!-- ？？ -->	
+        <auto_scan_card>true</auto_scan_card>
+		<!-- 自動トップメニュー戻り -->	
+        <auto_back_topmenu>false</auto_back_topmenu>
+		<!-- 自動トップメニュー戻りタイムアウト時間 -->	
+        <auto_back_topmenu_timeout>5</auto_back_topmenu_timeout>
+		<!-- 磁気カード自動クローズ -->
+		<use_auto_shutdown_swipecard>true</use_auto_shutdown_swipecard>
+    </swipecard>
+    
+    <!-- ■入力制限 -->
+    <input_limit>
+		<!-- チャージ -->	
+        <charge>99999</charge>
+		<!-- ポイント利用 -->	
+        <point>9999</point>
+		<!-- 現金 -->	
+        <cash>999999</cash>
+		<!-- クレジット -->	
+        <credit>999999</credit>
+		<!-- DV商品券 -->	
+        <dv_ticket>99999</dv_ticket>
+		<!-- 他社商品券 -->	
+        <other_ticket>99999</other_ticket>
+		<!-- 電子マネー -->	
+        <emoney>99999</emoney>
+		<!-- 売掛金 -->	
+        <receivable_money>99999</receivable_money>
+    </input_limit>
+	
+    <!-- ■端数処理設定 -->
+    <!-- 　　halfAjust：四捨五入 -->	
+    <!-- 　　roundUp：切上 -->	
+    <!-- 　　roundDown：切捨 -->	
+    <!-- 　　withTax：税金込 -->	
+    <!-- 　halfAjust, roundUp, roundDown, withTax -->
+    <round_setting>
+		<!-- 商品金額 -->	
+        <master_product>withTax</master_product>
+		<!-- 割引 -->	
+        <discount>roundDown</discount>
+		<!-- 消費税 -->	
+        <tax>roundDown</tax>
+    </round_setting>
+	
+    <!-- ■メインテナンス -->
+    <hardware>
+		<!-- 状態取得間隔（分） -->	
+        <get_status_interval>60</get_status_interval>
+		<!-- 無線状態表示 -->	
+        <wifi_status>true</wifi_status>
+		<!-- 電池状態表示 -->	
+        <battery_status>true</battery_status>
+		<!-- 無線チェック -->	
+        <check_wifi>true</check_wifi>
+    </hardware>
+	
+    <!-- ■ログ設定 -->
+    <log>
+		<!-- ファイルパス -->	
+        <file_path>.</file_path>
+		<!-- ファイル名 -->	
+        <file_name>rlty4</file_name>
+		<!-- 出力レベル -->	
+        <priority>debug</priority>
+    </log>
+	
+    <!-- ■通信設定 -->
+    <rl_comm>
+		<!-- HTTPS利用 -->	
+        <use_https>true</use_https>
+		<!-- 通信タイムアウト（分？秒？） -->	
+        <timeout>30</timeout>
+		<!-- サーバ -->	
+        <server>192.168.1.187</server>
+		<!-- ドメイン -->	
+        <domain>https://192.168.1.187</domain>
+		<!-- iPOSダウンロードURL -->	
+        <ipos_url>ipos/</ipos_url>
+		<!-- 通信ポート -->	
+        <port>443</port>
+		<!-- 状態更新利用 -->	
+        <query_update>true</query_update>
+		<!-- 端末認証 -->	
+        <client_certificate>false</client_certificate>
+		<!-- アプリ名 -->	
+        <app_name>RLASP3_MH</app_name>
+		<!-- 通信アクション -->	
+        <action_path>
+　			<!--  -->	
+            <ssl_cert_test>/SSLCertTest/test.jsp</ssl_cert_test>
+　			<!--  -->	
+            <get_customer_info>/terminal/GetCustomerInfo.action</get_customer_info>
+　			<!--  -->	
+            <get_terminal_info>/terminal/GetTerminalInfo.action</get_terminal_info>
+　			<!--  -->	
+            <send_sales_info>/terminal/SendSalesInfo.action</send_sales_info>
+　			<!--  -->	
+            <send_total_sales_info>/terminal/SendTotalSalesInfo.action</send_total_sales_info>
+　			<!--  -->	
+            <register_member>/mobile/RegC.action</register_member>
+　			<!--  -->	
+            <update_status>/terminal/UpdateQuery.action</update_status>
+　			<!--  -->	
+            <download_file>/terminal/DownloadFile.action</download_file>
+　			<!--  -->	
+            <upload_file>/terminal/UploadFile.action</upload_file>
+　			<!--  -->	
+            <checking_in>/terminal/CheckingIn.action</checking_in>
+　			<!--  -->	
+            <checking_out>/terminal/CheckingOut.action</checking_out>
+　			<!--  -->	
+            <cash_deposit>/terminal/CashDeposit.action</cash_deposit>
+　			<!--  -->	
+            <reg_staff>/terminal/RegStaff.action</reg_staff>
+　			<!--  -->	
+            <query_staff>/terminal/QueryStaff.action</query_staff>
+　			<!--  -->	
+            <unreg_staff>/terminal/UnregStaff.action</unreg_staff>
+　			<!--  -->	
+            <charge_input>/terminal/ChargeInput.action</charge_input>
+　			<!--  -->	
+            <receivable_input>/terminal/ReceivableMoneyInput.action</receivable_input>
+　			<!--  -->	
+            <point_input>/terminal/PointInput.action</point_input>
+　			<!--  -->	
+            <query_ticket>/terminal/QueryTicket.action</query_ticket>
+　			<!--  -->	
+            <get_time>/terminal/GetTime.action</get_time>
+　			<!--  -->	
+            <reg_accesskey>/terminal/RegAccessKey.action</reg_accesskey>
+　			<!--  -->	
+            <query_clientid>/terminal/QueryClientID.action</query_clientid>
+　			<!--  -->	
+            <query_sales>/terminal/QuerySales.action</query_sales>
+　			<!--  -->	
+            <query_sales_detail>/terminal/QueryProductSales.action</query_sales_detail>
+　			<!--  -->	
+            <checking_out2>/terminal/CheckingOut2.action</checking_out2>
+　			<!--  -->	
+            <add_reservation>/terminal/RAddReservation.action</add_reservation>
+　			<!--  -->	
+            <modify_reservation>/terminal/RModifyReservation.action</modify_reservation>
+　			<!--  -->	
+            <del_reservation>/terminal/RDelReservation.action</del_reservation>
+　			<!--  -->	
+            <update_reservation>/terminal/RUpdateReservation.action</update_reservation>
+　			<!--  -->	
+            <update_shifts>/terminal/RGetStaffShifts.action</update_shifts>
+　			<!--  -->	
+            <reg_deviceinfo>/terminal/RegDeviceInfo.action</reg_deviceinfo>
+　			<!--  -->	
+            <get_webreservation>/terminal/RGetWebReservation.action</get_webreservation>
+　			<!--  -->	
+            <get_reservation_num>/terminal/RGetReservationNumber.action</get_reservation_num>
+　			<!--  -->	
+            <makesure_reservation>/terminal/RConfirmReservation.action</makesure_reservation>
+　			<!--  -->	
+            <update_staff_resttime>/terminal/RUpdateRestTime.action</update_staff_resttime>
+　			<!--  -->	
+            <get_products_blocktime>/terminal/RUpdateBlockProducts.action</get_products_blocktime>
+　			<!--  -->	
+            <update_product_blocktime>/terminal/RUpdateBlockProduct.action</update_product_blocktime>
+　			<!--  -->	
+            <update_performance>/terminal/RUpdatePerformance.action</update_performance>
+　			<!--  -->	
+            <update_master>/terminal/RUpdateMaster.action</update_master>
+　			<!--  -->	
+            <cancel_reservation>/terminal/RCancelReservation.action</cancel_reservation>
+　			<!--  -->	
+            <get_cancel_reservation>/terminal/RGetCancelReservation.action</get_cancel_reservation>
+　			<!--  -->	
+            <query_customerInfo>/terminal/QueryCustomerInfo.action</query_customerInfo>
+　			<!--  -->	
+            <query_customerID>/terminal/QueryCustomerID.action</query_customerID>
+　			<!--  -->	
+            <get_customer_shopingInfo>/terminal/GetShoppingInfo.action</get_customer_shopingInfo>
+　			<!--  -->	
+            <get_customer_shipingDetailInfo>/terminal/GetShoppingDetailInfo.action</get_customer_shipingDetailInfo>
+　			<!--  -->	
+            <get_sales_records>/terminal/GetSalesRecords.action</get_sales_records>
+　			<!--  -->	
+            <del_sales_records>/terminal/DeleteSalesRecord.action</del_sales_records>
+　			<!--  -->	
+            <card_issue>/terminal/CardIssue.action</card_issue>
+　			<!--  -->	
+            <send_testmail>/terminal/SendTestMail.action</send_testmail>
+　			<!--  -->	
+            <RlchUploadImage>/terminal/RlchUploadImage.action</RlchUploadImage>
+　			<!--  -->	
+            <RlchUpdateCaseRecord>/terminal/RlchUpdateCaseRecord.action</RlchUpdateCaseRecord>
+　			<!--  -->	
+            <RlchAddCaseRecord>/terminal/RlchAddCaseRecord.action</RlchAddCaseRecord>
+　			<!--  -->	
+            <RlchDeleteCaseRecord>/terminal/RlchDeleteCaseRecord.action</RlchDeleteCaseRecord>
+　			<!--  -->	
+            <RlchGetCaseRecord>/terminal/RlchGetCaseRecord.action</RlchGetCaseRecord>
+　			<!--  -->	
+            <RlchQueryCaseRecdBriefs>/terminal/RlchQueryCaseRecdBriefs.action</RlchQueryCaseRecdBriefs>
+　			<!--  -->	
+            <RlchGetConfiguration>/terminal/RlchGetConfiguration.action</RlchGetConfiguration>
+　			<!--  -->	
+            <RlchGetUIMetas>/terminal/RlchGetUIMetas.action</RlchGetUIMetas>
+　			<!--  -->	
+            <input_survey_list>/survey/initStaffHasntInputSurveyLst.action</input_survey_list>
+　			<!--  -->	
+            <usable_survery_list>/survey/usableSurveyLst.action</usable_survery_list>
+　			<!--  -->	
+            <answered_survey_list>/survey/initAnsweredSurveyLst.action</answered_survey_list>
+            <get_all_shops>/terminal/GetAllShops.action</get_all_shops>
+        </action_path>
+    </rl_comm>
+</config>

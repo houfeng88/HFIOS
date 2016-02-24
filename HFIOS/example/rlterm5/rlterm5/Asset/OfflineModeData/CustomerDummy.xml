@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<customerinfo>
+  <name>RL太郎</name>
+  <point>9999</point>
+  <lastVisitDate>2013-1-1</lastVisitDate>
+  <visitTimesPerYear>99</visitTimesPerYear>
+  <purchaseMoneyPerYear>999999</purchaseMoneyPerYear>
+  <status>1</status>
+  <result>success</result>
+  <charge>99999</charge>
+    <bookTickets>
+        <ticket>
+            <id>1</id>
+            <ticketID>1</ticketID>
+            <remainTimes>3</remainTimes>
+            <remainMoney>15000</remainMoney>
+            <validDate>2099-1-1</validDate>
+        </ticket>
+    </bookTickets>
+</customerinfo>
